@@ -1,0 +1,73 @@
+.contact {
+    height: 100vh;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    z-index: 0;
+}
+
+.contact-header {
+    font-size: 13rem;
+    font-family: 'Cosi Azure Bold', serif;
+    font-weight: 700;
+    color: rgba(123, 0, 150, 0.5);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index: -1;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.contact-container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+}
+
+.contact-text {
+    font-size: 4rem !important;
+    font-family: 'Circular Std Bold', sans-serif;
+    color: white;
+}
+
+.contact-btn {
+    font-family: 'Circular Std Bold', sans-serif;
+    color: white !important;
+    width: 200px !important;
+}
+
+label {
+    font-family: 'Circular Std Bold', sans-serif !important;
+}
+
+input {
+    color: white !important;
+    font-family: 'Circular Std Bold', sans-serif !important;
+}
+
+textarea {
+    color: white !important;
+    font-family: 'Circular Std Bold', sans-serif !important;
+    width: 1800px !important;
+}
+
+@media only screen and (max-width: 786px)
+{
+    .contact {
+        height: 150vh;
+    }
+
+    .contact-header {
+        font-size: 5rem;
+    }
+
+    textarea {
+        width: 100% !important;
+    }
+}
