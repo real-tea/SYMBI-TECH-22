@@ -18,10 +18,10 @@ export default function Footer() {
         <div className="footer">
             <Container>
                 <div className="socials">
-                    <a href="https://twitter.com/arn4b_"><FiTwitter className="social-icon" /></a>
-                    <a href="https://github.com/arn4b"><FiGithub className="social-icon" /></a>
-                    <a href="https://www.linkedin.com/in/arnab-chatterjee-3944341a0/"><FiLinkedin className="social-icon" /></a>
-                    <a href="https://www.polywork.com/arn4b"><SiPolywork className="social-icon" /></a>
+                    <a href="https://twitter.com/"><FiTwitter className="social-icon" /></a>
+                    <a href="https://github.com/real-tea"><FiGithub className="social-icon" /></a>
+                    <a href="https://www.linkedin.com/in/akash-singh-2729a2135/"><FiLinkedin className="social-icon" /></a>
+                    <a href=""><SiPolywork className="social-icon" /></a>
                 </div>
 
                 <div className="credits">
