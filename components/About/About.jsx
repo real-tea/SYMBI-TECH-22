@@ -34,7 +34,7 @@ For the first time, it is planned to be a centralized national-level event 🚀.
 </p>
                             <p className="about-subtext"></p>
                             <Spacer y={1} />
-                            <Button onClick = {getResume} className="about-btn" size="xlarge" shadow color="gradient" auto>Know More</Button>
+                            <Button  className="about-btn" size="xlarge" shadow color="gradient" auto>Know More</Button>
                         </Fade>
 
                     </Grid>
