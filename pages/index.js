@@ -44,7 +44,7 @@ export default function Home() {
         <Landing />
         <About />
         <Projects />
-        <Experience />
+        {/* <Experience /> */}
         {/* <Tech /> */}
         
         <Contact />
