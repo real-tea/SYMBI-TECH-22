@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="contact" id="contact">
             <h1 className="contact-header">Contact</h1>
             <Container className="contact-container">
-            <h1 className="contact-text">Hit me Up</h1>
+            <h1 className="contact-text">Hit us Up</h1>
                 <Grid.Container gap={2} justify="center">
                     <Grid md={6}>
                         <Fade bottom duration={2000}>

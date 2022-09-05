@@ -31,11 +31,11 @@ export default function Home() {
         <Head>
         <title>Symbi tech</title>
 
-        <meta property="og:title" content="Arnab Chatterjee" />
+        <meta property="og:title" content="Symbitech" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://arn4b.vercel.app" />
-        <meta property="og:image" content="https://user-images.githubusercontent.com/60937304/142048262-9fa15151-11ff-41cc-9a50-f3086b7cb530.png" />
-        <meta property="og:description" content="Arnab Chatterjee | Frontend Developer" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:description" content="Technical festival for SIT-pune" />
         </Head>
 
         
@@ -43,7 +43,7 @@ export default function Home() {
         <Navbar />
         <Landing />
         <About />
-        <Projects />
+        {/* <Projects /> */}
         {/* <Experience /> */}
         {/* <Tech /> */}
         

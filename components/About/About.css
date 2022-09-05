@@ -21,11 +21,7 @@
           #A8D8DC 33.333%, 
           #487B9D 33.333%, 
           #C4161C 50%, 
-          #C4161C 50%, 
-          #000000 66.666%, 
-          #000000 66.666%, 
-          #000000 83.333%, 
-          #A8D8DC 83.333%);
+          );
     
     /* Set the background size and repeat properties. */
     background-size: 100%;

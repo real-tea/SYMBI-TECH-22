@@ -40,9 +40,9 @@ export default function Footer() {
 
                     <div className="powered">
                         <div>Powered By</div>
-                        <div className="next-logos">
+                        {/* <div className="next-logos">
                             <Image src={next} width="125px" height="70px" /><Spacer x={1} /> and <Spacer x={1} /><Image src={nextui} width="125px" height="60px" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </Container>
