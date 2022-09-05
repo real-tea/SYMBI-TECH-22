@@ -15,7 +15,7 @@ export default function Navbar() {
           <Image src={ logo } width="100px" height="100px"/>
         <div className="navbar-items">
           <h3 className="navbar-items-text">
-            <Link href="/uses">
+            <Link href="#">
               Register now
             </Link>
           </h3>
