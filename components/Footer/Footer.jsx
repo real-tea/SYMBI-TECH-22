@@ -1,7 +1,6 @@
 import { Container, Item } from '@mui/material'
 import Image from 'next/image';
 import React from 'react'
-import arnab from '../../public/images/MOSHED-2021-9-22-18-37-25.jpg'
 import Fade from 'react-reveal/Fade';
 
 import { Input, Button, Row, Col, Grid, Spacer, Textarea, Tooltip } from '@nextui-org/react';

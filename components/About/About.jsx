@@ -4,7 +4,6 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 
 import { Row, Col, Grid, Button, Spacer , Link } from '@nextui-org/react';
-import arnab3 from '../../public/images/Group.svg'
 
 import { SiJavascript } from 'react-icons/si'
 
@@ -45,7 +44,7 @@ For the first time, it is planned to be a centralized national-level event 🚀.
                     </Grid>
                     {/* <Grid xs={12} md={6} className="about-img-col">
                         <Fade bottom duration={2000}>
-                            <Image className="about-img" src={arnab3} width="2000px" height="2000px" />
+                            <Image className="about-img" src={} width="2000px" height="2000px" />
                         </Fade>
                     </Grid> */}
                 </Grid.Container>

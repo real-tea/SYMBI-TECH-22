@@ -33,11 +33,11 @@ function MyApp({ Component, pageProps }) {
 
     <link href="https://fonts.googleapis.com/css2?family=Circular Std Bold:wght@100;200;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" /> 
 
-    <meta property="og:title" content="Arnab Chatterjee" />
+    <meta property="og:title" content="" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://arn4b.vercel.app" />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/60937304/142048262-9fa15151-11ff-41cc-9a50-f3086b7cb530.png" />
-    <meta property="og:description" content="Arnab Chatterjee | Frontend Developer" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
   </Head>
 
   <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>

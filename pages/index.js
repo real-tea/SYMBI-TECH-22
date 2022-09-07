@@ -49,7 +49,6 @@ export default function Home() {
         
         <Contact />
         <Footer />
-        {/* <InlineWidget  url="https://calendly.com/arn4b/30min"/> */}
     </div>
   )
 }
