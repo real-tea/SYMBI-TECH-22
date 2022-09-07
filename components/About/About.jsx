@@ -12,10 +12,7 @@ import nextlogo from '../../public/images/next-logo.png'
 
 export default function About() {
 
-    const getResume = () =>{ 
-        window.open("https://drive.google.com/file/d/1_f2ultkr5CTfWlXoJh3gTl6R1qdYoEgD/view?usp=sharing")
-    }
-
+    
     return (
         <div className="about" id="about">
             <h1 className="about-header">About</h1>

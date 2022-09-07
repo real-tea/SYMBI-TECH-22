@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import Event from "../components/Events/Event";
 
 const AnimatedCursor = dynamic(()=>import('react-animated-cursor'),{
     ssr:false
@@ -20,6 +21,7 @@ export default function Events(){
         <Head>
             <title>Events @ SymbITech</title>
         </Head>
+        <Event/>
 
         </div>
     )
