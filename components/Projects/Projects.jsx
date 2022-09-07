@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Row, Col, Grid, Button, Spacer } from '@nextui-org/react';
 import Image from 'next/image'
-
+import Link from "next/link";
 import { Container } from '@mui/material'
 
 import Fade from 'react-reveal/Fade';
@@ -84,9 +84,11 @@ export default function Projects() {
                         </Grid> */}
                         <Grid md={4}>
                             <div className="proj-box">
-                                <a href="/events" target="/events">
-                                <Button className="about-btn" size="xlarge" shadow color="gradient" auto>and more...</Button>
-                                </a>
+                                
+                                <Button className="about-btn" size="xlarge" shadow color="gradient" auto>
+                                <Link href="/events">and more...</Link>
+                                </Button>
+                                
                             </div>
                         </Grid>
                     </Grid.Container>
