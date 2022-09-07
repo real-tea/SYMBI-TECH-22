@@ -3,11 +3,11 @@ import { Container } from '@mui/material'
 import Fade from 'react-reveal/Fade';
 import Image from 'next/image'
 
-import msc from '../../public/images/msc.svg'
-import polygon from '../../public/images/polygon.svg'
-import mozilla from '../../public/images/mozilla.svg'
-import mauka from '../../public/images/Mauka.svg'
-import hackclub from '../../public/images/hackclub.svg'
+// import msc from '../../public/images/msc.svg'
+// import polygon from '../../public/images/polygon.svg'
+// import mozilla from '../../public/images/mozilla.svg'
+// import mauka from '../../public/images/Mauka.svg'
+// import hackclub from '../../public/images/hackclub.svg'
 
 import { Tooltip, Text, Row, Col, Grid, Button } from '@nextui-org/react';
 
