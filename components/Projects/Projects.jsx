@@ -84,7 +84,7 @@ export default function Projects() {
                         </Grid> */}
                         <Grid md={4}>
                             <div className="proj-box">
-                                <a href="" target="__blank">
+                                <a href="/events" target="/events">
                                 <Button className="about-btn" size="xlarge" shadow color="gradient" auto>and more...</Button>
                                 </a>
                             </div>

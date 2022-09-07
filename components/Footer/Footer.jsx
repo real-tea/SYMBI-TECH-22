@@ -9,7 +9,7 @@ import caffiene from '../../public/images/caffiene.png'
 import next from '../../public/logos/next-logo.png'
 import nextui from '../../public/logos/nextui.svg'
 
-import { FiTwitter, FiGithub, FiLinkedin } from 'react-icons/fi'
+import { FiTwitter, FiGithub, FiLinkedin , FiInstagram } from 'react-icons/fi'
 import { SiPolywork } from 'react-icons/si'
 
 export default function Footer() {
@@ -17,10 +17,10 @@ export default function Footer() {
         <div className="footer">
             <Container>
                 <div className="socials">
-                    <a href="https://twitter.com/"><FiTwitter className="social-icon" /></a>
-                    <a href="https://github.com/real-tea"><FiGithub className="social-icon" /></a>
-                    <a href="https://www.linkedin.com/in/akash-singh-2729a2135/"><FiLinkedin className="social-icon" /></a>
-                    <a href=""><SiPolywork className="social-icon" /></a>
+                    {/* <a href="https://twitter.com/"><FiTwitter className="social-icon" /></a> */}
+                    {/* <a href="https://github.com/real-tea"><FiGithub className="social-icon" /></a> */}
+                    <a href="https://www.linkedin.com/company/symbitech-sit/"><FiLinkedin className="social-icon" /></a>
+                    <a href="https://www.instagram.com/symbitech/"><FiInstagram className="social-icon" /></a>
                 </div>
 
                 <div className="credits">
