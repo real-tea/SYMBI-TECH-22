@@ -17,7 +17,7 @@ export default function Navbar() {
         <Image src={SIT_logo} width="700px" height="150px" alt='Symbiosis Logo' />
         <div className="nav bar-items">
           <h3 className="navbar-items-text">
-            <Link href="/events">
+            <Link href="/register">
               Register Now
             </Link>
           </h3>
