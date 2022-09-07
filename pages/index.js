@@ -20,35 +20,35 @@ const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
 export default function Home() {
   return (
     <div className="body">
-        <AnimatedCursor 
+      <AnimatedCursor
         innerSize={15}
         outerSize={40}
         color='255, 255, 255'
         outerAlpha={0.2}
         innerScale={0.6}
         outerScale={2}
-        trailingSpeed={7}/>
-        <Head>
-        <title>Symbi tech</title>
+        trailingSpeed={7} />
+      <Head>
+        <title>Symbi Tech</title>
 
         <meta property="og:title" content="Symbitech" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="" />
         <meta property="og:image" content="" />
         <meta property="og:description" content="Technical festival for SIT-pune" />
-        </Head>
+      </Head>
 
-        
 
-        <Navbar />
-        <Landing />
-        <About />
-        <Projects />
-        {/* <Experience /> */}
-        {/* <Tech /> */}
-        
-        <Contact />
-        <Footer />
+
+      <Navbar />
+      <Landing />
+      <About />
+      <Projects />
+      {/* <Experience /> */}
+      {/* <Tech /> */}
+
+      <Contact />
+      <Footer />
     </div>
   )
 }

@@ -2,8 +2,8 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from "../../public/symbitech_gradient.png"
-import SIT_logo from "../../public/images/sit_full_whitefont.png";
+import logo from "../../public/images/symbitech_white.png"
+import SIT_logo from "../../public/images/symbi_globe.png";
 
 export default function Navbar() {
   return (
@@ -13,8 +13,8 @@ export default function Navbar() {
           <Link href="/">
             <Image src={logo}/>
           </Link></h1> */}
-        <Image src={logo} width="170px" height="170px" alt='Symbi Tech Logo' />
-        <Image src={SIT_logo} width="700px" height="150px" alt='Symbiosis Logo' />
+        <Image src={logo} width="120px" height="120px" alt='Symbi Tech Logo' />
+        <Image src={SIT_logo} width="120px" height="120px" alt='Symbiosis Logo' />
         <div className="nav bar-items">
           <h3 className="navbar-items-text">
             <Link href="/register">
