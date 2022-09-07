@@ -28,6 +28,7 @@ export default function Projects() {
                             <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={mauka} />
+                                    {"Treasure Hunt"}
                                 </div>
                             </a>
                         </Grid>
@@ -35,13 +36,15 @@ export default function Projects() {
                             <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={firepost} />
+                                    {"Hackathon"}
                                 </div>
                             </a>
                         </Grid>
-                        <Grid md={4}>
+                        {/* <Grid md={4}>
                             <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={instaclone} />
+                                    {"Bot Wars"}
                                 </div>
                             </a>
                         </Grid>
@@ -50,20 +53,23 @@ export default function Projects() {
                             <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={firechat} />
+                                    {"Space Hunt"}
                                 </div>
                             </a>
-                        </Grid>
-                        <Grid md={4}>
+                        </Grid> */}
+                        {/* <Grid md={4}>
                             <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={discordbot} />
+                                    {"FIFA 2022"}
                                 </div>
                             </a>
-                        </Grid>
+                        </Grid> */}
                         <Grid md={4}>
                             <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={newsdux} />
+                                    {"Lazer Tag"}
                                 </div>
                             </a>
                         </Grid>
@@ -84,11 +90,11 @@ export default function Projects() {
                         </Grid> */}
                         <Grid md={4}>
                             <div className="proj-box">
-                                
+
                                 <Button className="about-btn" size="xlarge" shadow color="gradient" auto>
-                                <Link href="/events">and more...</Link>
+                                    <Link href="/events">and more...</Link>
                                 </Button>
-                                
+
                             </div>
                         </Grid>
                     </Grid.Container>
