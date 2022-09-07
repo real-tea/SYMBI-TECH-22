@@ -22,7 +22,6 @@ export default function Events(){
             <title>Events @ SymbITech</title>
         </Head>
         <Event/>
-
         </div>
     )
 }
