@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 
-import { Row, Col, Grid, Button, Spacer } from '@nextui-org/react';
+import { Row, Col, Grid, Button, Spacer , Link } from '@nextui-org/react';
 import arnab3 from '../../public/images/Group.svg'
 
 import { SiJavascript } from 'react-icons/si'
@@ -26,15 +26,20 @@ export default function About() {
                         <Fade bottom duration={2000}>
                             <p className="about-main-text">All Work, All Play</p>
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
-                            <p className = "about-subtext">Symbiosis Institute of technology brings back its very own and well-renowned technical fest with added zest ✨ <br/> and enthusiasm this year. 
+                            <p className = "about-subtext">
+                                <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span>
+                            brings back its very own and well-renowned technical fest with added zest ✨ <br/> and enthusiasm this year. 
 For the first time, it is planned to be a centralized national-level event 🚀.<br/>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 <span shadow color = "gradient" className="gradient-text">SymbITech</span> will help young minds, broaden their vision, and surrender to their instincts for knowledge
-</p>
+</p>    <br/>
+<p className="about-subtext">SymbITech, the Annual Technical Fest of SIT is all set to blow up everyone’s mind with lots off challenging events and knowledge hunts. 🤯</p>
                             <p className="about-subtext"></p>
                             <Spacer y={1} />
-                            <Button  className="about-btn" size="xlarge" shadow color="gradient" auto>Know More</Button>
+                            <Button  className="about-btn" size="xlarge" shadow color="gradient" auto>
+                            <Link href = "http://www.sitpune.edu.in/about-us-the-institute">Know More</Link>
+                            </Button>
                         </Fade>
 
                     </Grid>

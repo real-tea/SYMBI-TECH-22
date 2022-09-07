@@ -20,7 +20,10 @@ export default function Contact() {
                     </Grid>
                     <Grid md={6} className="flex flex-col">
                     <Fade bottom duration={2000}>                        
-                        <form action="https://formspree.io/f/xeqpbwja" method="POST">
+                    <form
+                        action="https://formspree.io/f/xaykqjqe"
+                        method="POST"
+                    >
                         <Spacer y={3} />
                         <Input color="secondary" fullWidth underlined invert className="cont-input" size="xlarge" labelPlaceholder="Name 🤖" name="name"/>
                         <Spacer y={3} />

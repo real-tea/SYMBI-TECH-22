@@ -43,7 +43,7 @@ export default function Home() {
         <Navbar />
         <Landing />
         <About />
-        {/* <Projects /> */}
+        <Projects />
         {/* <Experience /> */}
         {/* <Tech /> */}
         

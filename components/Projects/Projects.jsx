@@ -25,21 +25,21 @@ export default function Projects() {
                 <Fade bottom duration={2000}>
                     <Grid.Container gap={2} justify="center">
                         <Grid md={4}>
-                            <a href="https://maukaeducation.com/" target="__blank">
+                            <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={mauka} />
                                 </div>
                             </a>
                         </Grid>
                         <Grid md={4}>
-                            <a href="https://github.com/arn4b/firepost" target="__blank">
+                            <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={firepost} />
                                 </div>
                             </a>
                         </Grid>
                         <Grid md={4}>
-                            <a href="https://github.com/arn4b/instagram-clone" target="__blank">
+                            <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={instaclone} />
                                 </div>
@@ -47,44 +47,44 @@ export default function Projects() {
                         </Grid>
 
                         <Grid md={4}>
-                            <a href="https://github.com/arn4b/superchat" target="__blank">
+                            <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={firechat} />
                                 </div>
                             </a>
                         </Grid>
                         <Grid md={4}>
-                            <a href="https://github.com/arn4b/discord-bot-gen1" target="__blank">
+                            <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={discordbot} />
                                 </div>
                             </a>
                         </Grid>
                         <Grid md={4}>
-                            <a href="https://newsdux.pages.dev" target="__blank">
+                            <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={newsdux} />
                                 </div>
                             </a>
                         </Grid>
 
-                        <Grid md={4}>
-                            <a href="https://daedarus.co" target="__blank">
+                        {/* <Grid md={4}>
+                            <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={daedarus} />
                                 </div>
                             </a>
                         </Grid>
                         <Grid md={4}>
-                            <a href="https://kiit.hackclub.com" target="__blank">
+                            <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={hackclub} />
                                 </div>
                             </a>
-                        </Grid>
+                        </Grid> */}
                         <Grid md={4}>
                             <div className="proj-box">
-                                <a href="https://github.com/arn4b" target="__blank">
+                                <a href="" target="__blank">
                                 <Button className="about-btn" size="xlarge" shadow color="gradient" auto>and more...</Button>
                                 </a>
                             </div>
