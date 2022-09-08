@@ -3,9 +3,24 @@ import { Formik } from 'formik';
 import { Input, Button, Row, Col, Grid, Spacer, Textarea, Tooltip } from '@nextui-org/react';
 import Fade from 'react-reveal/Fade';
 import Navbar from '../Navbar/Navbar';
+import dynamic from 'next/dynamic'
+
+const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
+    ssr: false
+});
+
+
 const RegistrationForm = () => {
     return (
         <div>
+            <AnimatedCursor
+                innerSize={15}
+                outerSize={40}
+                color='255, 255, 255'
+                outerAlpha={0.2}
+                innerScale={0.6}
+                outerScale={2}
+                trailingSpeed={7} />
             <Navbar />
             <Fade duration={2000} delay={300} small>
                 <Formik
