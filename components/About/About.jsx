@@ -9,6 +9,7 @@ import { SiJavascript } from 'react-icons/si'
 
 import rlogowhite from '../../public/images/react-logo-white.png'
 import nextlogo from '../../public/images/next-logo.png'
+import Collage from '../../public/images/collage_about.png';
 
 export default function About() {
 
@@ -39,11 +40,11 @@ For the first time, it is planned to be a centralized national-level event 🚀.
                         </Fade>
 
                     </Grid>
-                    {/* <Grid xs={12} md={6} className="about-img-col">
+                    <Grid xs={12} md={6} justify = "center" className="about-img-col">
                         <Fade bottom duration={2000}>
-                            <Image className="about-img" src={} width="2000px" height="2000px" />
+                            <Image className="about-img" src={Collage} bottom="400px"/>
                         </Fade>
-                    </Grid> */}
+                    </Grid>
                 </Grid.Container>
             </Container>
         </div>
