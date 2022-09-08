@@ -14,7 +14,7 @@ export default function Navbar() {
             <Image src={logo}/>
           </Link></h1> */}
         <Image src={logo} width="120px" height="120px" alt='Symbi Tech Logo' />
-        <Image src={SIT_logo} width="120px" height="120px" alt='Symbiosis Logo' />
+        <Image src={SIT_logo} width='400px' height='125px' alt='Symbiosis Logo' />
         <div className="nav bar-items">
           <h3 className="navbar-items-text">
             <Link href="/register">
