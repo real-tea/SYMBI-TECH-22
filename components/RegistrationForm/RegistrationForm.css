@@ -1,0 +1,139 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+input,
+select {
+    min-width: 560px;
+    max-width: 70vw;
+    height: 36px;
+    margin-top: 13px;
+    padding-left: 13px;
+    font-family: 'LabilGrotesk', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #7b0096;
+    color: #7b0096 !important;
+    outline: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    background-color: rgb(17, 17, 17);
+}
+
+textarea {
+    width: 560px;
+    height: 125px;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    padding-left: 13px;
+    padding-top: 8px;
+    font-family: 'LabilGrotesk', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7b0096;
+    border: 1px solid #7b0096;
+    outline: none;
+    resize: none;
+    border-radius: 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+option {
+    font-family: 'IBM Plex Sans', monospace !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #7b0096;
+    font-family: 'IBM Plex Sans', monospace !important;
+    opacity: 1;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: rgb(17, 17, 17);
+    transition: 0.3s;
+}
+
+.submit-btn:focus {
+    background-color: #7b0096;
+    outline: none;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #9b00bd;
+    transition: 0.3s;
+}
+
+.submit-btn {
+    width: 560px;
+    height: 36px;
+    background-color: #7b0096;
+    color: white;
+    font-family: 'LabilGrotesk';
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+}
+
+.error-msg {
+    color: black;
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: italic;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    width: 560px;
+    align-items: flex-start;
+}
+
+.github-register {
+    color: black;
+    margin-top: 2px;
+    width: 560px;
+    padding-left: 13px;
+}
+
+@media only screen and (max-width: 660px) {
+
+    input,
+    select {
+        min-width: 253px;
+    }
+
+    textarea {
+        width: 253px;
+    }
+
+    .branch-batch-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 253px;
+    }
+
+    .submit-btn {
+        width: 253px;
+    }
+}
