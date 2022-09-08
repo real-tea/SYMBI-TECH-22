@@ -4,6 +4,7 @@ import "@fontsource/plus-jakarta-sans";
 import '../components/Navbar/Navbar.css'
 import '../components/Landing/Landing.css'
 import '../components/About/About.css'
+import '../components/Events/Events.css';
 import '../components/Tech/Tech.css'
 import '../components/Experience/Experience.css'
 import '../components/Projects/Projects.css'

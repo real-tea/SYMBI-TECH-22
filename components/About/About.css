@@ -116,6 +116,7 @@
 .about-subtext {
     font-size: 1.75rem;
     font-family: 'Circular Std Bold', sans-serif;
+    /* padding:100px; */
     color: white;
     margin: 1rem 0;
 }
@@ -125,7 +126,13 @@
 }
 
 .about-img {
-    border-radius: 3rem !important;
+    /* border-radius: 3rem !important; */
+    position : absolute;    
+    padding : 100px; 
+}
+
+.about-img-col{
+    align-items: center;
 }
 
 .App-logo {
@@ -154,9 +161,7 @@
         font-size: 5rem;
     }
 
-    .about-img {
-        border-radius: 1rem !important;
-    }
+    
     
     .about-main-text {
         font-size: 2rem;
