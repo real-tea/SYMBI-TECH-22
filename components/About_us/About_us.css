@@ -1,0 +1,50 @@
+.aboutus {
+    color: #fffffe;
+    /* padding: 5rem 0; */
+    padding-top:5rem;
+    /* background: url("../../public/images/163231269225893591.png"); */
+    background-size: 100% 100%;
+    height: 150vh;
+    position: relative;
+    z-index: 0;
+    display: flex;
+}
+
+.aboutus_2 {
+    color: #fffffe;
+    padding-bottom : 5rem;  
+    margin-top:5rem; 
+    /* background: url("../../public/images/163231269225893591.png"); */
+    background-size: 100% 100%;
+    height: 150vh;
+    position: relative;
+    z-index: 0;
+    display: flex;
+}
+
+.aboutus-header {
+    font-size: 13rem;
+    font-family: 'Cosi Azure Bold', serif;
+    font-weight: 700;
+    color: #7b009680;
+    position: absolute;
+    
+    z-index: -1;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.aboutus-subtext {
+    font-size: 1.75rem;
+    font-family: 'Circular Std Bold', sans-serif;
+    margin-bottom : 200px;
+    padding : 200px;
+    padding-bottom:-200px;
+    color: white;
+    margin: 1rem 0;
+}

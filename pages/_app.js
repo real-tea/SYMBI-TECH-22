@@ -12,6 +12,7 @@ import '../components/Footer/Footer.css'
 import '../components/Contact/Contact.css'
 import '../pages/uses/uses.css'
 import '../components/RegistrationForm/RegistrationForm.css'
+import '../components/About_us/About_us.css';
 
 import React from 'react'
 import Head from 'next/head'

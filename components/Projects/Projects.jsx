@@ -27,7 +27,9 @@ export default function Projects() {
                         <Grid md={4}>
                             <a href="" target="__blank">
                                 <div className="proj-box">
+                                    <Link href="/register">
                                     <Image priority className="proj-img" src={mauka} />
+                                    </Link>
                                     {"Treasure Hunt"}
                                 </div>
                             </a>
@@ -35,59 +37,26 @@ export default function Projects() {
                         <Grid md={4}>
                             <a href="" target="__blank">
                                 <div className="proj-box">
+                                    <Link href="/register">
                                     <Image priority className="proj-img" src={firepost} />
+                                    </Link>
                                     {"Hackathon"}
                                 </div>
                             </a>
                         </Grid>
-                        {/* <Grid md={4}>
-                            <a href="" target="__blank">
-                                <div className="proj-box">
-                                    <Image priority className="proj-img" src={instaclone} />
-                                    {"Bot Wars"}
-                                </div>
-                            </a>
-                        </Grid>
-
+                        
                         <Grid md={4}>
                             <a href="" target="__blank">
                                 <div className="proj-box">
-                                    <Image priority className="proj-img" src={firechat} />
-                                    {"Space Hunt"}
-                                </div>
-                            </a>
-                        </Grid> */}
-                        {/* <Grid md={4}>
-                            <a href="" target="__blank">
-                                <div className="proj-box">
-                                    <Image priority className="proj-img" src={discordbot} />
-                                    {"FIFA 2022"}
-                                </div>
-                            </a>
-                        </Grid> */}
-                        <Grid md={4}>
-                            <a href="" target="__blank">
-                                <div className="proj-box">
+                                    <Link href="/register">
                                     <Image priority className="proj-img" src={newsdux} />
+                                    </Link>
                                     {"Lazer Tag"}
                                 </div>
                             </a>
                         </Grid>
 
-                        {/* <Grid md={4}>
-                            <a href="" target="__blank">
-                                <div className="proj-box">
-                                    <Image priority className="proj-img" src={daedarus} />
-                                </div>
-                            </a>
-                        </Grid>
-                        <Grid md={4}>
-                            <a href="" target="__blank">
-                                <div className="proj-box">
-                                    <Image priority className="proj-img" src={hackclub} />
-                                </div>
-                            </a>
-                        </Grid> */}
+                        
                         <Grid md={4}>
                             <div className="proj-box">
 

@@ -11,7 +11,7 @@ const Event = () => {
     <Navbar/>
     <div className="about" id="about">
     
-      <h1 className="about-header">
+      <h1 className="event-header">
         Events
       </h1>
       <br />

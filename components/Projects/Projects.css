@@ -14,6 +14,7 @@
     position: absolute;
     top: 0px;
     z-index: -1 !important;
+    padding-left : 30px;
 
     -webkit-touch-callout: none;
     -webkit-user-select: none;

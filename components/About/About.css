@@ -79,7 +79,8 @@
     font-weight: 700;
     color: #7b009680;
     position: absolute;
-    top: -0.3em;
+    top : -30px;
+    padding-left : 30px;
     z-index: -1;
 
     -webkit-touch-callout: none;
@@ -94,6 +95,7 @@
     font-size: 4rem;
     font-family: 'Circular Std Bold', sans-serif;
     font-weight: 600;
+      
 }
 
 /* .about-content {
@@ -111,12 +113,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column !important;
+    padding-bottom : -5em;
 }
 
 .about-subtext {
     font-size: 1.75rem;
     font-family: 'Circular Std Bold', sans-serif;
-    /* padding:100px; */
+    /* padding:-150px; */
     color: white;
     margin: 1rem 0;
 }
