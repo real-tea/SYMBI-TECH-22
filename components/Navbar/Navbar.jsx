@@ -13,8 +13,13 @@ export default function Navbar() {
           <Link href="/">
             <Image src={logo}/>
           </Link></h1> */}
-        <Image src={logo} width="120px" height="120px" alt='Symbi Tech Logo' />
-        <Image src={SIT_logo} width='400px' height='125px' alt='Symbiosis Logo' />
+        <Link href="/">
+          <Image  src={logo} width="120px" height="120px" alt='Symbi Tech Logo' />
+        </Link>
+
+        <Link href="https://www.sitpune.edu.in/">
+          <Image src={SIT_logo} width='400px' height='125px' alt='Symbiosis Logo' />
+        </Link>
         <div className="nav bar-items">
           <h3 className="navbar-items-text">
             <Link href="/register">
