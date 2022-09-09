@@ -1,9 +1,16 @@
 import React from 'react'
 import { Container } from "@mui/material";
-import { Grid } from "@nextui-org/react";
+import { Grid , Button , Link } from "@nextui-org/react";
+
+import Navbar from "../Navbar/Navbar";
+
 const Event = () => {
   return (
+    
+    <div>
+    <Navbar/>
     <div className="about" id="about">
+    
       <h1 className="about-header">
         Events
       </h1>
@@ -61,6 +68,7 @@ const Event = () => {
             </li>
           </ul>
         </div>
+        
         <div className='event-list-r'>
           <ul>
             <li className='event-item'>
@@ -107,9 +115,19 @@ const Event = () => {
               <div className='event-heading'>Project Competition</div>
               <div className='event-desc'>Participants will be exhitibit their proiects in a competition based event</div>
             </li>
-          </ul>
-        </div>
-      </div>
+          </ul>          
+        </div> 
+
+        {/* **BUTTON** */}
+        
+          
+
+      </div> 
+      
+      
+        
+    </div>
+     
     </div>
   )
 }

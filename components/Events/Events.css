@@ -9,6 +9,10 @@
     font-weight: bold;
 }
 
+.about-header{
+    padding-top : 0.6em
+}
+
 .event-list-l {
     text-align: right;
 }

@@ -5,10 +5,10 @@ import Fade from 'react-reveal/Fade';
 
 import { Row, Col, Grid, Button, Spacer , Link } from '@nextui-org/react';
 
-import { SiJavascript } from 'react-icons/si'
+// import { SiJavascript } from 'react-icons/si'
 
-import rlogowhite from '../../public/images/react-logo-white.png'
-import nextlogo from '../../public/images/next-logo.png'
+// import rlogowhite from '../../public/images/react-logo-white.png'
+// import nextlogo from '../../public/images/next-logo.png'
 import Collage from '../../public/images/collage_about.png';
 
 export default function About() {
