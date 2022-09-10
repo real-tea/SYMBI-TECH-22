@@ -98,7 +98,7 @@ textarea:focus {
 }
 
 .error-msg {
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Open Sans', 'sans-serif';
     font-style: italic;
     font-weight: bold;
