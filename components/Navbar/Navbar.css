@@ -6,6 +6,7 @@
     align-items: center;
     /* background-color: red; */
     /* font-family: 'Cosi Azure Bold', serif; */
+    padding : 13px;
     z-index: 999999;
 }
 
@@ -41,4 +42,8 @@
     .navbar-items {
         display: none;
     }
+}
+
+.logo-image{
+    padding : 100px;
 }
