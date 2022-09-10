@@ -35,7 +35,7 @@ For the first time, it is planned to be a centralized national-level event 🚀.
                             <p className="about-subtext"></p>
                             <Spacer y={1} />
                             <Button  className="about-btn" size="xlarge" shadow color="gradient" auto>
-                            <Link href = "http://www.sitpune.edu.in/about-us-the-institute">Know More</Link>
+                            <Link href = "/about">Know More</Link>
                             </Button>
                         </Fade>
 
