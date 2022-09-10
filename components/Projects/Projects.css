@@ -2,6 +2,7 @@
     /* background-color: red; */
     height: 150vh;
     position: relative;
+    padding : 50px;     
     display: flex;
     z-index: 0;
 }

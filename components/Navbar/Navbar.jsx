@@ -14,7 +14,7 @@ export default function Navbar() {
             <Image src={logo}/>
           </Link></h1> */}
         <Link href="/">
-          <Image  src={logo} width="120px" height="120px" alt='Symbi Tech Logo' />
+          <Image src={logo} width="120px" height="120px" alt='Symbi Tech Logo' />
         </Link>
 
         <Link href="https://www.sitpune.edu.in/">

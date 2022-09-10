@@ -10,11 +10,7 @@ import Fade from 'react-reveal/Fade';
 import newsdux from "../../public/images/newsdux.png"
 import mauka from "../../public/images/mauka.png"
 import firepost from "../../public/images/firepost.png"
-import instaclone from "../../public/images/instaclone.png"
-import firechat from "../../public/images/firechat.png"
-import discordbot from "../../public/images/discordbot.png"
-import daedarus from "../../public/images/daedarus.png"
-import hackclub from "../../public/images/hackclub.png"
+
 
 export default function Projects() {
     return (
