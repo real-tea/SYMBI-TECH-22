@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from "../../public/images/symbitech_white.png"
-import SIT_logo from "../../public/images/symbi_globe.png";
+import SIT_logo from "../../public/images/sit_full_whitefont.png";
 
 export default function Navbar() {
   return (
@@ -14,11 +14,11 @@ export default function Navbar() {
             <Image src={logo}/>
           </Link></h1> */}
         <Link href="/">
-          <Image  src={logo} width="120px" height="120px" alt='Symbi Tech Logo' />
+          <Image src={logo} width="120px" height="120px" alt='Symbi Tech Logo' />
         </Link>
 
         <Link href="https://www.sitpune.edu.in/">
-          <Image src={SIT_logo} width='400px' height='125px' alt='Symbiosis Logo' />
+          <Image src={SIT_logo} width='500px' height='195px' alt='Symbiosis Logo' />
         </Link>
         <div className="nav bar-items">
           <h3 className="navbar-items-text">
