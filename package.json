@@ -21,6 +21,7 @@
     "firebase": "^9.9.4",
     "formik": "^2.2.9",
     "framer-motion": "^4.1.17",
+    "multiselect-react-dropdown": "^2.0.25",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-animated-cursor": "^2.2.0",

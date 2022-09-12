@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap');
+
 .form-container {
     display: flex;
     justify-content: center;
@@ -13,7 +15,6 @@ select {
     height: 36px;
     margin-top: 13px;
     padding-left: 13px;
-    font-family: 'LabilGrotesk', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -24,6 +25,7 @@ select {
     border-radius: 0;
     -webkit-appearance: none;
     background-color: rgb(17, 17, 17);
+    cursor: none;
 }
 
 textarea {
@@ -33,7 +35,6 @@ textarea {
     margin-bottom: 20px;
     padding-left: 13px;
     padding-top: 8px;
-    font-family: 'LabilGrotesk', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -91,10 +92,10 @@ textarea:focus {
     height: 36px;
     background-color: #7b0096;
     color: white;
-    font-family: 'LabilGrotesk';
     font-size: 16px;
     border: none;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .error-msg {
@@ -115,6 +116,18 @@ textarea:focus {
     padding-left: 13px;
 }
 
+.event-heading {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem !important;
+    padding-top: 15px;
+    font-family: 'IBM Plex Sans', monospace !important;
+}
+
+.multi-select {
+    max-width: 560px;
+}
+
 @media only screen and (max-width: 660px) {
 
     input,
@@ -126,6 +139,11 @@ textarea:focus {
         width: 253px;
     }
 
+    .multi-select {
+        max-width: 253px;
+    }
+
+
     .branch-batch-container {
         display: flex;
         justify-content: center;
@@ -135,5 +153,13 @@ textarea:focus {
 
     .submit-btn {
         width: 253px;
+    }
+
+    .error-msg {
+        width: 253px
+    }
+
+    .event-heading {
+        font-size: 1.8rem !important;
     }
 }
