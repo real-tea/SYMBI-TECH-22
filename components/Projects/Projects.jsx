@@ -26,7 +26,7 @@ export default function Projects() {
                                     <Link href="/register">
                                     <Image priority className="proj-img" src={mauka} />
                                     </Link>
-                                    {"Treasure Hunt"}
+                                    {"Ideathon"}
                                 </div>
                             </a>
                         </Grid>

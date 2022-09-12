@@ -1,0 +1,8 @@
+
+.register-cont {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    padding-bottom : -5em;
+}
