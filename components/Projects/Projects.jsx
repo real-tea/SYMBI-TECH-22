@@ -24,7 +24,7 @@ export default function Projects() {
                             <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
-                                    <Image priority className="proj-img" src={mauka} />
+                                        <Image priority className="proj-img" src={mauka} alt='thumbnail' />
                                     </Link>
                                     {"Treasure Hunt"}
                                 </div>
@@ -34,25 +34,25 @@ export default function Projects() {
                             <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
-                                    <Image priority className="proj-img" src={firepost} />
+                                        <Image priority className="proj-img" src={firepost} alt='thumbnail' />
                                     </Link>
-                                    {"Hackathon"}
+                                    {"Code Wars"}
                                 </div>
                             </a>
                         </Grid>
-                        
+
                         <Grid md={4}>
                             <a href="" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
-                                    <Image priority className="proj-img" src={newsdux} />
+                                        <Image priority className="proj-img" src={newsdux} />
                                     </Link>
                                     {"Lazer Tag"}
                                 </div>
                             </a>
                         </Grid>
 
-                        
+
                         <Grid md={4}>
                             <div className="proj-box">
 
