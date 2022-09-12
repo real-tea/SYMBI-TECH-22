@@ -18,7 +18,7 @@ export default function Navbar() {
         </Link>
 
         <Link href="https://www.sitpune.edu.in/">
-          <Image src={SIT_logo} width='500px' height='100px' alt='Symbiosis Logo' />
+          <Image src={SIT_logo} width='600px' height='100px' alt='Symbiosis Logo' />
         </Link>
         <div className="nav bar-items">
           <h3 className="navbar-items-text">
