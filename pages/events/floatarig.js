@@ -25,12 +25,12 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>Ideathon</title>
+                <title>Float-a-RIG</title>
             
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Ideathon</h1>
+            <h1 className="about-header">Float-a-RIG</h1>
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -39,8 +39,7 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Ideathon is an event where the participants get a chance to pitch their ideas or plans
-In front of a panel of judges in order to get a chance to win cash prices. 
+                                To create a model floating rig or platform for deep sea wind farms. Which must withstand turbulent currents, high speed winds and changing tides while the mounted wind turbines rotate effectively and generate power
 .<br/>
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
@@ -51,11 +50,12 @@ In front of a panel of judges in order to get a chance to win cash prices.
 
 <br/>
 <p className="about-subtext">
-1. This is a single round event.<br/>
-2. Participants will present their idea or plan in front of the judges.<br/>
-3. Participants will be given 6-8 minutes to pitch their idea. It will be followed by the JUDGES’ QnA round for 3 minutes.
-Judges will collectively decide the winners.
-There will be three winners.
+1. Only provided materials can be used. Outside material is not allowed.<br/>
+2. Participants must make the model on site, in the given time.<br/>
+3. During wind testing, the efficiency of the turbines will be checked.<br/>
+4. Day 1 will be static testing and day 2 will be the wind testing.<br/>
+5. They must leave the model with SIT at the end of day 1. No changes will be made after the techfest times.
+
 
 </p>
                             

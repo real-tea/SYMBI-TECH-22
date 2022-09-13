@@ -25,12 +25,12 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>Ideathon</title>
+                <title>DS VIsualisation</title>
             
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Ideathon</h1>
+            <h1 className="about-header">DS Visualization</h1>
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -39,8 +39,11 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Ideathon is an event where the participants get a chance to pitch their ideas or plans
-In front of a panel of judges in order to get a chance to win cash prices. 
+
+                                The events will be a individual event.
+The event consist of 4-5 datasets on which participants can choose and carryout Data cleaning, Data visualization and analysis within the time period of 1.5 hour. Participants are given hardware on which they have to perform their analysis. Penalty will be awarded if participant cross the time limit.
+Submission should be a python notebook (jupyter notebook)
+
 .<br/>
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
@@ -51,11 +54,9 @@ In front of a panel of judges in order to get a chance to win cash prices.
 
 <br/>
 <p className="about-subtext">
-1. This is a single round event.<br/>
-2. Participants will present their idea or plan in front of the judges.<br/>
-3. Participants will be given 6-8 minutes to pitch their idea. It will be followed by the JUDGES’ QnA round for 3 minutes.
-Judges will collectively decide the winners.
-There will be three winners.
+1. Any participant found disturbing, or helping in other participant’s work will be disqualified.<br/>
+2. Points will be allotted by trained volunteers and will be verified by head and co-head. (To ensure no favoritism).<br/>
+3. Keep phones on silent and on the desk.
 
 </p>
                             

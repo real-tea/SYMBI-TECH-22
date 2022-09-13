@@ -25,12 +25,12 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>Ideathon</title>
+                <title>Weaving the Web</title>
             
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Ideathon</h1>
+            <h1 className="about-header">Weaving the Web</h1>
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -39,8 +39,7 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Ideathon is an event where the participants get a chance to pitch their ideas or plans
-In front of a panel of judges in order to get a chance to win cash prices. 
+                                This event is about building websites. The participants would be given some code, and they would have to write the rest to complete a simple static website
 .<br/>
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
@@ -51,11 +50,12 @@ In front of a panel of judges in order to get a chance to win cash prices.
 
 <br/>
 <p className="about-subtext">
-1. This is a single round event.<br/>
-2. Participants will present their idea or plan in front of the judges.<br/>
-3. Participants will be given 6-8 minutes to pitch their idea. It will be followed by the JUDGES’ QnA round for 3 minutes.
-Judges will collectively decide the winners.
-There will be three winners.
+1. All participants would be given around 45 minutes to complete a website’s CSS. .<br/>
+2. Participants are expected to complete a single page static website.<br/>
+3. JavaScript would be optional. This event is about testing CSS skills as well as design sense of the participants<br/>
+4. There would be no limit to how much CSS a person can write.  <br/>
+{/* 5. strictly no discussions amongst yourself (leads to straight up disqualification). <br/> */}
+
 
 </p>
                             
