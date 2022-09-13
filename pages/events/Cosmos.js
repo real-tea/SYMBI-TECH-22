@@ -42,7 +42,7 @@ export default function Events() {
 
                                 This event will have contestants hunt all over the campus for clues and hints to navigate further and find the final treasure. The contestants who reach the last stage and crack the final clue will win the event
 .<br/>
-<h1 className="about-main-text">Event Rules</h1>
+<h1 className="about-main-text">Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}

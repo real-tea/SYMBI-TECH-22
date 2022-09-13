@@ -41,13 +41,13 @@ export default function Events() {
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
                                 We assign a lathe Machine to individual participants. Maximum 14 lathe Machines could be assigned at a time period.The participant who has the most accurate, fine component with respect to the design selected and the time required to make the job will be selected as the winner.
 
-.<br/>
+.<br/></p>  
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+  
 
 <br/>
 <p className="about-subtext">

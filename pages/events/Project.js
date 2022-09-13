@@ -25,12 +25,12 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>CodeWars</title>
+                <title>Project Competetion</title>
             
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">CodeWars</h1>
+            <h1 className="about-header">Project Competetion</h1>
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
