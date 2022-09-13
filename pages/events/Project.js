@@ -25,12 +25,12 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>Ideathon</title>
+                <title>CodeWars</title>
             
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Ideathon</h1>
+            <h1 className="about-header">CodeWars</h1>
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -39,8 +39,7 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Ideathon is an event where the participants get a chance to pitch their ideas or plans
-In front of a panel of judges in order to get a chance to win cash prices. 
+                                The participants will register in teams of max 4. There will be 5 phases. Each team will have to solve the current clue and move to the next.
 .<br/>
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
@@ -51,11 +50,9 @@ In front of a panel of judges in order to get a chance to win cash prices.
 
 <br/>
 <p className="about-subtext">
-1. This is a single round event.<br/>
-2. Participants will present their idea or plan in front of the judges.<br/>
-3. Participants will be given 6-8 minutes to pitch their idea. It will be followed by the JUDGES’ QnA round for 3 minutes.
-Judges will collectively decide the winners.
-There will be three winners.
+1. Can be played in 2 modes(time based:30 min and team based).<br/>
+2. Max 3 attempts per clue.<br/>
+3. Teams have to debug and reach to clues before time runs out or another team reaches the end point.
 
 </p>
                             

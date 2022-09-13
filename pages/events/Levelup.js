@@ -25,12 +25,12 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>Ideathon</title>
+                <title>Finish & Level Up</title>
             
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Ideathon</h1>
+            <h1 className="about-header">Level Up</h1>
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -39,8 +39,8 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Ideathon is an event where the participants get a chance to pitch their ideas or plans
-In front of a panel of judges in order to get a chance to win cash prices. 
+                                Each floor will be named after some planet/star. The event will start from the ground floor. Each team will have to finish the task of the particular department in a given time and move to the next floor. Ground floor will have tasks related to the civil department, the first floor will have tasks related to the mechanical department, the third floor will have tasks related to the ENTC department and the fourth floor will have tasks related to the CS/IT/AIML/RNA department. The fifth floor will be the last floor and will have tasks which will incorporate some aspects of each department. The second floor is a blackhole.
+
 .<br/>
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
@@ -51,11 +51,11 @@ In front of a panel of judges in order to get a chance to win cash prices.
 
 <br/>
 <p className="about-subtext">
-1. This is a single round event.<br/>
-2. Participants will present their idea or plan in front of the judges.<br/>
-3. Participants will be given 6-8 minutes to pitch their idea. It will be followed by the JUDGES’ QnA round for 3 minutes.
-Judges will collectively decide the winners.
-There will be three winners.
+1. There will be 2 rounds. The 2nd round will consist of all the teams that made it to the top level in the 1st round.<br/>
+2. The participants will register individually. We will form a team of 4 members with 1 member from each department.<br/>
+3. Any random team may get caught into the blackhole.<br/>
+4. Irrespective of the level that the team is on, if the team gets caught in a blackhole, they will have to solve the extra task and move ahead starting from the level they were on previously. <br/>
+5. Use of lifts by any participant from the team will lead to disqualification of the entire team
 
 </p>
                             

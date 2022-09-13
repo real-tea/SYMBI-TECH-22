@@ -54,10 +54,10 @@ event-list-r {
 .event-item {
     transition: 0.3s;
     margin: 20px;
-    background-color: rgb(123, 0, 150, 0.17);
+    /* background-color: rgb(123, 0, 150, 0.17); */
 }
 
 .event-item:hover {
-    background-color: rgb(123, 0, 150, 0.5);
+    background-color: rgb(123, 0, 150);
     transition: 0.3s;
 }
