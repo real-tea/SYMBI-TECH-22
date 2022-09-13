@@ -10,28 +10,24 @@ import Select from 'react-select';
 
 const tech_data = [
     {
-        value: 'CodeWars',
-        label: 'CodeWars'
+        value: '3D Model Design',
+        label: '3D Model Design'
     },
     {
-        value: 'Ideathon',
-        label: 'Ideathon'
-    },
-    {
-        value: 'Best out of GOODS',
-        label: 'Best out of GOODS'
+        value: 'AI Model',
+        label: 'AI Model'
     },
     {
         value: 'Android Artists',
         label: 'Android Artists'
     },
     {
-        value: 'Weaving the Web',
-        label: 'Weaving the Web'
+        value: 'Best out of Goods',
+        label: 'Best out of Goods'
     },
     {
-        value: 'Drive the Bot',
-        label: 'Drive the Bot'
+        value: 'Car parts Assembly',
+        label: 'Car parts Assembly'
     },
     {
         value: 'Circuit-o-Mania',
@@ -42,63 +38,59 @@ const tech_data = [
         label: 'Data Science Visualization'
     },
     {
-        value: 'Lathe wars',
-        label: 'Lathe wars'
-    },
-    {
-        value: '3D model design',
-        label: '3D model design'
+        value: 'FloataRIG',
+        label: 'FloataRIG'
     },
     {
         value: 'Laser Cutting',
         label: 'Laser Cutting'
     },
     {
-        value: 'Al Model',
-        label: 'Al Model'
+        value: 'Lathe Wars',
+        label: 'Lathe Wars'
     },
     {
-        value: 'Car parts assembly',
-        label: 'Car parts assembly'
-    },
-    {
-        value: 'Laser tag',
-        label: 'Laser tag'
-    },
-    {
-        value: 'Model testing Constructo',
-        label: 'Model testing Constructo'
+        value: 'Model testing: Constructo',
+        label: 'Model testing: Constructo'
     },
     {
         value: 'Model testing: Resilience',
         label: 'Model testing: Resilience'
     },
     {
-        value: 'Paint your Galaxy',
-        label: 'Paint your Galaxy'
-    },
-    {
-        value: 'Hunting through the Cosmos',
-        label: 'Hunting through the Cosmos'
+        value: 'CodeWars',
+        label: 'CodeWars'
     }
 ]
 
 const non_tech_data = [
     {
-        value: 'Think Out-Of-The-Space',
-        label: 'Think Out-Of-The-Space'
+        value: 'Ideathon',
+        label: 'Ideathon'
     },
     {
-        value: 'Finish and Level Up',
-        label: 'Finish and Level Up'
+        value: 'Laser Tag',
+        label: 'Laser Tag'
+    },
+    {
+        value: 'Paint Your Galaxy',
+        label: 'Paint Your Galaxy'
+    },
+    {
+        value: 'Think Out Of The Space',
+        label: 'Think Out Of The Space'
+    },
+    {
+        value: 'Hunting Through Cosmos',
+        label: 'Hunting Through Cosmos'
     },
     {
         value: 'Tech MUN',
         label: 'Tech MUN'
     },
     {
-        value: 'FloataRIG',
-        label: 'FloataRIG'
+        value: 'Finish and Level Up',
+        label: 'Finish and Level Up'
     },
     {
         value: 'Project Competition',
