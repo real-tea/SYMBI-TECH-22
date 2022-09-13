@@ -7,9 +7,9 @@ import { Container } from '@mui/material'
 
 import Fade from 'react-reveal/Fade';
 
-import newsdux from "../../public/images/newsdux.png"
-import mauka from "../../public/images/mauka.png"
-import firepost from "../../public/images/firepost.png"
+import newsdux from "../../public/ds.png"
+import mauka from "../../public/constructo.png"
+import firepost from "../../public/laser cutting.png"
 
 
 export default function Projects() {
@@ -24,9 +24,9 @@ export default function Projects() {
                             <Link href="/register" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
-                                    <Image priority className="proj-img" src={mauka} />
+                                    <Image priority className="proj-img" src={newsdux} />
                                     </Link>
-                                    {"Ideathon"}
+                                    {"DS Visualization"}
                                 </div>
                             </Link>
                         </Grid>
@@ -34,9 +34,9 @@ export default function Projects() {
                             <Link href="/register" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
-                                    <Image priority className="proj-img" src={firepost} />
+                                    <Image priority className="proj-img" src={mauka} />
                                     </Link>
-                                    {"Code"}
+                                    {"Constructo"}
                                 </div>
                             </Link>
                         </Grid>
@@ -45,9 +45,9 @@ export default function Projects() {
                             <Link href="/register" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
-                                    <Image priority className="proj-img" src={newsdux} />
+                                    <Image priority className="proj-img" src={firepost} />
                                     </Link>
-                                    {"Lazer Tag"}
+                                    {"Laser Cutting"}
                                 </div>
                             </Link>
                         </Grid>
