@@ -21,35 +21,35 @@ export default function Projects() {
                 <Fade bottom duration={2000}>
                     <Grid.Container gap={2} justify="center">
                         <Grid md={4}>
-                            <a href="" target="__blank">
+                            <Link href="/register" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
                                     <Image priority className="proj-img" src={mauka} />
                                     </Link>
                                     {"Ideathon"}
                                 </div>
-                            </a>
+                            </Link>
                         </Grid>
                         <Grid md={4}>
-                            <a href="" target="__blank">
+                            <Link href="/register" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
                                     <Image priority className="proj-img" src={firepost} />
                                     </Link>
-                                    {"Hackathon"}
+                                    {"Code"}
                                 </div>
-                            </a>
+                            </Link>
                         </Grid>
                         
                         <Grid md={4}>
-                            <a href="" target="__blank">
+                            <Link href="/register" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
                                     <Image priority className="proj-img" src={newsdux} />
                                     </Link>
                                     {"Lazer Tag"}
                                 </div>
-                            </a>
+                            </Link>
                         </Grid>
 
                         
