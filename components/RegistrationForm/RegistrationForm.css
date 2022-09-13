@@ -125,7 +125,11 @@ textarea:focus {
 }
 
 .multi-select {
-    max-width: 560px;
+    min-width: 560px;
+}
+
+select {
+    background-color: black;
 }
 
 @media only screen and (max-width: 660px) {

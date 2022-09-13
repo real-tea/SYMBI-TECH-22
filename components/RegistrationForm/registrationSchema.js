@@ -6,6 +6,4 @@ export const basicSchema = yup.object().shape({
     contact: yup.string().required('*Required'),
     college: yup.string().required('*Required'),
     identityNo: yup.string().required('*Required'),
-    tech_event: yup.string().required('*Required'),
-    non_tech_event: yup.string().required('*Required')
 });
