@@ -25,7 +25,7 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>LaserTag</title>
+                <title>Laser Tag</title>
             
             </Head>
             
@@ -40,13 +40,13 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
                                 There will be 2 teams of 4 members. Each player will be given a laser gun to tag the opponents and a shield. When all the members of a team are tagged by the laser, they lose. The team that completes the game in the shortest amount of time wins.
-.<br/>
+.<br/></p>    
 <h1 className="about-main-text">Laser Tag</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+
 
 <br/>
 <p className="about-subtext">

@@ -43,13 +43,13 @@ export default function Events() {
                                 Chairs: Externals to avoid bias
                                 No. of Participants: 100 (20 companies x 5 participants)
 
-.<br/>
+<br/></p>   
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+ 
 
 <br/>
 <p className="about-subtext">

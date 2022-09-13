@@ -34,19 +34,20 @@ export default function Events() {
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
+                    {/* <h1 className="about-main-text">Description</h1> */}
                         
                             {/* <p className="about-main-text">All Work, All Play</p> */}
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
                                 2 level game in which 1st level consists of debugging the given code and getting the secret code and 2nd level consists of solving the quest and gaining the prize. Both levels need to be solved in the given time frame.
-.<br/>
+.<br/></p>    
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+
 
 <br/>
 <p className="about-subtext">

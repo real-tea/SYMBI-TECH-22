@@ -44,13 +44,13 @@ export default function Events() {
                                 Participants will be introduced to the laser cutting machines, a brief introduction and description of the machines themselves and also the rules and objectives of the event.
 Each group will be given 4-5 hours to come up with an original and unique design with complete creative control. Out of all the groups, the top 5 designs will be selected and be processed for printing the next day.
 
-<br/>
+<br/></p> 
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+   
 
 <br/>
 <p className="about-subtext">

@@ -41,13 +41,13 @@ export default function Events() {
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
                                 Ideathon is an event where the participants get a chance to pitch their ideas or plans
 In front of a panel of judges in order to get a chance to win cash prices. 
-.<br/>
+.<br/></p>    
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+
 
 <br/>
 <p className="about-subtext">

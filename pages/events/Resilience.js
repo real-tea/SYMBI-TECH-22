@@ -41,13 +41,13 @@ export default function Events() {
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
                             In this technical event we have an innovative theme for all the engineers . The event of on-spot model making consists of G+8 framed structures using balsa sticks of 4mm x 3mm x 1000m in length.
 
-.<br/>
+.<br/></p>
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+    
 
 <br/>
 <p className="about-subtext">

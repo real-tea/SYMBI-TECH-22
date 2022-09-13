@@ -41,12 +41,13 @@ export default function Events() {
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
                                 We create five basic circuits of “Type A, B, C, D, E”. These 5 include online as well hardware based circuits; each “Type” of a circuit has further subdivisions 1, 2 and 3 then we give the player choice of choosing a circuit from A to E and randomly allot the subdivision 1/2/3. Player solves the circuit in a stipulated amount of time. The player who solves the fastest in a category will be the winner.
 <br/>
+</p>  
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+  
 
 <br/>
 <p className="about-subtext">

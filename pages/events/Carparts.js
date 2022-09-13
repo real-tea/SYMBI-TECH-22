@@ -40,13 +40,13 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
                                 Participants will be given basic car parts for example,Carburettor, Exhaust, Spark plug and they’ll be required to fix and assemble it in the given time.
-.<br/>
+.<br/></p>   
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+ 
 
 <br/>
 <p className="about-subtext">

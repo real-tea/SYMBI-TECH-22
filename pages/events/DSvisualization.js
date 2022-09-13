@@ -44,13 +44,13 @@ export default function Events() {
 The event consist of 4-5 datasets on which participants can choose and carryout Data cleaning, Data visualization and analysis within the time period of 1.5 hour. Participants are given hardware on which they have to perform their analysis. Penalty will be awarded if participant cross the time limit.
 Submission should be a python notebook (jupyter notebook)
 
-.<br/>
+.<br/></p>   
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+ 
 
 <br/>
 <p className="about-subtext">

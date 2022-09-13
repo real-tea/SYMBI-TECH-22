@@ -40,13 +40,13 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
                                 The participants will register in teams of max 4. There will be 5 phases. Each team will have to solve the current clue and move to the next.
-.<br/>
+.<br/></p>   
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
-</p>    
+ 
 
 <br/>
 <p className="about-subtext">

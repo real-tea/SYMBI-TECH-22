@@ -39,16 +39,16 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Each floor will be named after some planet/star. The event will start from the ground floor. Each team will have to finish the task of the particular department in a given time and move to the next floor. Ground floor will have tasks related to the civil department, the first floor will have tasks related to the mechanical department, the third floor will have tasks related to the ENTC department and the fourth floor will have tasks related to the CS/IT/AIML/RNA department. The fifth floor will be the last floor and will have tasks which will incorporate some aspects of each department. The second floor is a blackhole.
+                                This event will start from the ground floor. Each team will have to finish the task of the particular department in a given time and move to the next floor. Ground floor will have tasks related to the civil department, the first floor will have tasks related to the mechanical department, the third floor will have tasks related to the ENTC department and the fourth floor will have tasks related to the CS/IT/AIML/RNA department. The fifth floor will be the last floor and will have tasks which will incorporate some aspects of each department. The second floor is a blackhole.
 
-.<br/>
+
+
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
 </p>    
-
 <br/>
 <p className="about-subtext">
 1. There will be 2 rounds. The 2nd round will consist of all the teams that made it to the top level in the 1st round.<br/>
