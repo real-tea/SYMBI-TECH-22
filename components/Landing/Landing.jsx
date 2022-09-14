@@ -14,7 +14,7 @@ export default function Landing() {
                     <h3 className="landing-h3">Welcome to </h3>
                 </Fade>
                 <Fade duration={2500} delay={1000}>
-                    <h1 className="gradient-text landing-h1">SymbITech&apos;22</h1>
+                    <h1 className="gradient-text landing-h1" shadow color="gradient">SymbITech&apos;22</h1>
                 </Fade>
 
                 <Fade duration={2500} delay={1000}>
