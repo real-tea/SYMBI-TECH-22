@@ -7,6 +7,7 @@ import dynamic from 'next/dynamic'
 import { basicSchema } from './registrationSchema';
 import { database } from '../firebase';
 import Select from 'react-select';
+import { useEffect } from 'react';
 
 const tech_data = [
     {
@@ -103,6 +104,20 @@ const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
 });
 
 const RegistrationForm = () => {
+    const calculateFee = () => {
+        var tech_fee = 0, non_tech_fee = 0;
+        if (selectedTech.length < 3) {
+            tech_fee += selectedTech.length * 60;
+        } else if (selectedTech.length % 3 < 3) {
+            tech_fee += (parseInt(selectedTech.length / 3) * 300) + (parseInt(selectedTech.length % 3) * 60)
+        }
+        if (selectedNonTech.length < 3) {
+            non_tech_fee += selectedNonTech.length * 60;
+        } else if (selectedNonTech.length % 3 < 3) {
+            non_tech_fee += (parseInt(selectedNonTech.length / 3) * 300) + (parseInt(selectedNonTech.length % 3) * 60)
+        }
+        return tech_fee + non_tech_fee;
+    }
     async function sendData(data, setSubmitting) {
         setSubmitting(true);
         await database.collection('responses').doc(`${data.fullname}_${data.contact}_${data.identityNo}`).set(data)
@@ -112,6 +127,10 @@ const RegistrationForm = () => {
     }
     const [selectedTech, setSelectedTech] = useState('');
     const [selectedNonTech, setSelectedNonTech] = useState('');
+    const [registrationFee, setRegistrationFee] = useState(0);
+    useEffect(() => {
+        setRegistrationFee(calculateFee(selectedTech, selectedNonTech));
+    }, [selectedNonTech, selectedTech])
     return (
         <div>
             <AnimatedCursor
@@ -139,14 +158,9 @@ const RegistrationForm = () => {
                                 non_tech_event: JSON.stringify(selectedNonTech),
                                 campusRef: values.campusRef
                             };
-                            if (selectedNonTech.length < 2 || selectedTech.length < 3) {
-                                alert('Select atleast 3 tech and 2 non-tech events');
-                                setSubmitting(false);
-                            } else {
-                                sendData(data, setSubmitting);
-                                resetForm(values);
-                                handleReset();
-                            }
+                            sendData(data, setSubmitting);
+                            resetForm(values);
+                            handleReset();
                         }}
                         validationSchema={basicSchema}
                     >
@@ -221,30 +235,31 @@ const RegistrationForm = () => {
                                     placeholder="Campus Ambassador Referral Number (Optional)"
                                 />
                                 <p className="error-msg">{errors.campusRef && touched.campusRef && errors.campusRef}</p>
-                                <p className='event-heading'>Technical Events (min.3)</p>
+                                <p className='event-heading'>Technical Events</p>
                                 {/* Technical Events */}
                                 <Field
                                     className="multi-select"
                                     name="multiTech"
                                     options={tech_data}
                                     component={Select}
-                                    placeholder="Select Technical Events (min. 3)"
+                                    placeholder="Select Technical Events"
                                     isMulti={true}
                                     onChange={(e) => { setSelectedTech(e) }}
                                 />
                                 <p className="error-msg">{errors.tech_event && touched.tech_event && errors.tech_event && selectedTech.length <= 2 && 'Select atleast 3 tech events'}</p>
-                                <p className='event-heading'>Non-Technical Events (min. 2)</p>
+                                <p className='event-heading'>Non-Technical Events</p>
                                 {/* Non Technical Events */}
                                 <Field
                                     className="multi-select"
                                     name="multiNonTech"
                                     options={non_tech_data}
                                     component={Select}
-                                    placeholder="Select Non Technical Events (min. 2)"
+                                    placeholder="Select Non Technical Events"
                                     isMulti={true}
                                     onChange={(e) => { setSelectedNonTech(e) }}
                                 />
                                 <p className="error-msg">{errors.non_tech_event && touched.non_tech_event && errors.non_tech_event && selectedNonTech.length <= 1 && 'Select atleast 2 non-tech events'}</p>
+                                <p className='registration-fee'>{"Registration Fee: ₹" + registrationFee}</p>
                                 <button className="submit-btn" type="submit" disabled={isSubmitting}>
                                     Submit
                                 </button>

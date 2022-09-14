@@ -133,6 +133,12 @@ select {
     background-color: black;
 }
 
+.registration-fee {
+    color: white;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
 @media only screen and (max-width: 660px) {
 
     input,
