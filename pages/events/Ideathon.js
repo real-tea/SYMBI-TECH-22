@@ -4,7 +4,7 @@ import About_us from "../../components/About_us/About_us";
 import { Button , Spacer , Fade ,  Link , Grid} from "@nextui-org/react";
 import { Container } from "@mui/material"
 // import './events.css'
-import Poster from "../../public/posters/Ideathon.png"
+import Poster from "../../public/posters/ideathon.png"
 import Image from "next/image"
 
 
