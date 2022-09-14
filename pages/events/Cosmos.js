@@ -3,6 +3,8 @@ import Head from "next/head";
 import About_us from "../../components/About_us/About_us";
 import { Button , Spacer , Fade ,  Link , Grid} from "@nextui-org/react";
 import { Container } from "@mui/material"
+import Image from 'next/image';
+import Poster from "../../public/posters/cosmos.png"
 // import './events.css'
 
 
@@ -40,8 +42,8 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
 
-                                This event will have contestants hunt all over the campus for clues and hints to navigate further and find the final treasure. The contestants who reach the last stage and crack the final clue will win the event
-.<br/>
+                                
+<br/> 
 <h1 className="about-main-text">Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
@@ -68,11 +70,11 @@ export default function Events() {
                         
 
                     </Grid>
-                    {/* <Grid xs={12} md={6} justify = "center" className="about-img-col">
-                        <Fade bottom duration={2000}>
-                            <Image className="about-img" src={Collage} bottom="400px"/>
-                        </Fade>
-                    </Grid> */}
+                    <Grid xs={12} md={6} justify = "center" className="about-img-col">
+                        
+                            <Image className="about-img" src={Poster} bottom="400px"/>
+                        
+                    </Grid>
                 </Grid.Container>
             </Container>
         </div>

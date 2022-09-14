@@ -116,6 +116,14 @@
     padding-bottom : -5em;
 }
 
+.about-subtext-main{
+    font-size: 1.75rem;
+    font-family: 'Circular Std Bold', sans-serif;
+    /* padding:-150px; */
+    color: white;
+    margin: 1rem 0;
+}
+
 .about-subtext {
     font-size: 1.75rem;
     font-family: 'Circular Std Bold', sans-serif;

@@ -65,9 +65,9 @@ export default function Events() {
 
                     </Grid>
                     <Grid xs={12} md={6} justify = "center" className="about-img-col">
-                        {/* <Fade bottom duration={2000}> */}
-                            <Image className="about-img" src={Poster} bottom="400px"/>
-                        {/* </Fade> */}
+                        
+                            <Image className="about-img" src={Poster}/>
+                       
                     </Grid>
                 </Grid.Container>
             </Container>

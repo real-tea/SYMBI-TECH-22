@@ -23,7 +23,7 @@ export default function About() {
                         <Fade bottom duration={2000}>
                             <p className="about-main-text">All Work, All Play</p>
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
-                            <p className = "about-subtext">
+                            <p className = "about-subtext-main">
                                 <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of Technology </span>
                             brings back its very own and well-renowned technical festival with added zest ✨ <br/> and enthusiasm this year. 
 For the first time, it is planned to be a centralized national-level event 🚀.<br/>

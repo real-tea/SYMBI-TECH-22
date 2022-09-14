@@ -5,7 +5,8 @@ import { Button , Spacer , Fade ,  Link , Grid} from "@nextui-org/react";
 import { Container } from "@mui/material"
 // import './events.css'
 
-
+import Image from "next/image"
+import Poster from "../../public/ds.png"
 
 
 const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
@@ -68,11 +69,11 @@ Submission should be a python notebook (jupyter notebook)
                         
 
                     </Grid>
-                    {/* <Grid xs={12} md={6} justify = "center" className="about-img-col">
-                        <Fade bottom duration={2000}>
-                            <Image className="about-img" src={Collage} bottom="400px"/>
-                        </Fade>
-                    </Grid> */}
+                    <Grid xs={12} md={6} justify = "center" className="about-img-col">
+                        
+                            <Image className="about-img" src={Poster} bottom="400px"/>
+                        
+                    </Grid>
                 </Grid.Container>
             </Container>
         </div>
