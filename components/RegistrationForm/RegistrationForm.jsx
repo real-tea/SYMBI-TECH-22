@@ -109,12 +109,12 @@ const RegistrationForm = () => {
         if (selectedTech.length < 3) {
             tech_fee += selectedTech.length * 60;
         } else if (selectedTech.length % 3 < 3) {
-            tech_fee += (parseInt(selectedTech.length / 3) * 300) + (parseInt(selectedTech.length % 3) * 60)
+            tech_fee += (parseInt(selectedTech.length / 3) * 150) + (parseInt(selectedTech.length % 3) * 60)
         }
         if (selectedNonTech.length < 3) {
             non_tech_fee += selectedNonTech.length * 60;
         } else if (selectedNonTech.length % 3 < 3) {
-            non_tech_fee += (parseInt(selectedNonTech.length / 3) * 300) + (parseInt(selectedNonTech.length % 3) * 60)
+            non_tech_fee += (parseInt(selectedNonTech.length / 3) * 150) + (parseInt(selectedNonTech.length % 3) * 60)
         }
         return tech_fee + non_tech_fee;
     }
