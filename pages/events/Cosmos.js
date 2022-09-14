@@ -72,7 +72,7 @@ export default function Events() {
                     </Grid>
                     <Grid xs={12} md={6} justify = "center" className="about-img-col">
                         
-                            <Image className="about-img" src={Poster} bottom="400px"/>
+                            <Image alt="" className="about-img" src={Poster} bottom="400px"/>
                         
                     </Grid>
                 </Grid.Container>

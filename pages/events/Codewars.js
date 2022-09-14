@@ -6,7 +6,7 @@ import { Container } from "@mui/material"
 import Poster from "../../public/posters/codewars.png"
 // import './events.css'
 
-
+import Image from 'next/image';
 
 
 const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
