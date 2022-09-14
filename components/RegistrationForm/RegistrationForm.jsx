@@ -146,7 +146,7 @@ const RegistrationForm = () => {
                 <div>
                     <Formik
                         className='formik-form'
-                        initialValues={{ fullname: '', email: '', contact: '', college: '', identityNo: '', tech_event: '', non_tech_event: '', campusRef: '' }}
+                        initialValues={{ fullname: '', email: '', contact: '', college: '', identityNo: '', tech_event: '', non_tech_event: '', campusRef: '', registration_fee: '' }}
                         onSubmit={(values, { resetForm, setSubmitting }) => {
                             const data = {
                                 fullname: values.fullname,
@@ -156,7 +156,8 @@ const RegistrationForm = () => {
                                 identityNo: values.identityNo,
                                 tech_event: JSON.stringify(selectedTech),
                                 non_tech_event: JSON.stringify(selectedNonTech),
-                                campusRef: values.campusRef
+                                campusRef: values.campusRef,
+                                registration_fee: registrationFee
                             };
                             sendData(data, setSubmitting);
                             resetForm(values);
