@@ -1,8 +1,9 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import About_us from "../../components/About_us/About_us";
-import { Button , Spacer , Fade ,  Link , Grid} from "@nextui-org/react";
+
+import { Button , Spacer , Fade  , Link , Grid} from "@nextui-org/react";
 import { Container } from "@mui/material"
+import Poster from "../../public/posters/codewars.png"
 // import './events.css'
 
 
@@ -64,11 +65,11 @@ export default function Events() {
                         
 
                     </Grid>
-                    {/* <Grid xs={12} md={6} justify = "center" className="about-img-col">
-                        <Fade bottom duration={2000}>
-                            <Image className="about-img" src={Collage} bottom="400px"/>
-                        </Fade>
-                    </Grid> */}
+                    <Grid xs={12} md={6} justify = "center" className="about-img-col">
+                        
+                            <Image src={Poster} className="about-img" />
+                        
+                    </Grid>
                 </Grid.Container>
             </Container>
         </div>
