@@ -261,6 +261,7 @@ const RegistrationForm = () => {
                                 />
                                 <p className="error-msg">{errors.non_tech_event && touched.non_tech_event && errors.non_tech_event && selectedNonTech.length <= 1 && 'Select atleast 2 non-tech events'}</p>
                                 <p className='registration-fee'>{"Registration Fee: ₹" + registrationFee}</p>
+                                {"Discount will be added if the events are in multiples of 3"}
                                 <button className="submit-btn" type="submit" disabled={isSubmitting}>
                                     Submit
                                 </button>
