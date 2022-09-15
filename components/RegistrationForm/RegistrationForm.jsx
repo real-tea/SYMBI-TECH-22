@@ -154,6 +154,7 @@ const RegistrationForm = () => {
                                 contact: values.contact,
                                 college: values.college,
                                 identityNo: values.identityNo,
+                                group_details: values.group_details,
                                 tech_event: JSON.stringify(selectedTech),
                                 non_tech_event: JSON.stringify(selectedNonTech),
                                 campusRef: values.campusRef,
@@ -226,6 +227,16 @@ const RegistrationForm = () => {
                                     placeholder="PRN (College ID)"
                                 />
                                 <p className="error-msg">{errors.identityNo && touched.identityNo && errors.identityNo}</p>
+                                {/* Group Details */}
+                                <input
+                                    type="text"
+                                    name="group_details"
+                                    onChange={handleChange}
+                                    onBlur={handleBlur}
+                                    value={values.group_details}
+                                    placeholder="Group Name (Only for Team Registrations)"
+                                />
+                                <p className="error-msg">{errors.group_details && touched.group_details && errors.group_details}</p>
                                 {/* Referal Number */}
                                 <input
                                     type="text"
