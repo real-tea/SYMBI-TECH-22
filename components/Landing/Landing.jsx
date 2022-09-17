@@ -18,7 +18,7 @@ export default function Landing() {
                 </Fade>
 
                 <Fade duration={2500} delay={1000}>
-                    <h1 className="landing-h3">28th-29th September</h1>
+                    <h1 className="landing-h3">11th-12th October</h1>
                 </Fade>
             </Container>
         </div>
