@@ -6,9 +6,9 @@ import Navbar from '../Navbar/Navbar';
 import dynamic from 'next/dynamic'
 import { basicSchema } from './registrationSchema';
 import { database } from '../firebase';
+import firebase from '../firebase';
 import Select from 'react-select';
 import { useEffect } from 'react';
-import { m } from 'framer-motion';
 
 const current_time = () => {
     return new Date().toLocaleString();
@@ -109,23 +109,12 @@ const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
 });
 
 const RegistrationForm = () => {
-    const calculateFee = () => {
-        var tech_fee = 0, non_tech_fee = 0;
-        if (selectedTech.length < 3) {
-            tech_fee += selectedTech.length * 60;
-        } else if (selectedTech.length % 3 < 3) {
-            tech_fee += (parseInt(selectedTech.length / 3) * 150) + (parseInt(selectedTech.length % 3) * 60)
-        }
-        if (selectedNonTech.length < 3) {
-            non_tech_fee += selectedNonTech.length * 60;
-        } else if (selectedNonTech.length % 3 < 3) {
-            non_tech_fee += (parseInt(selectedNonTech.length / 3) * 150) + (parseInt(selectedNonTech.length % 3) * 60)
-        }
-        return tech_fee + non_tech_fee;
-    }
+
     async function sendData(data, setSubmitting) {
         setSubmitting(true);
+        // Set current time
         data.submission_time = current_time();
+        // Filter event names from Tech & Non-tech events
         const temp_tech_data = data.tech_event;
         const temp_non_tech_data = data.non_tech_event;
         var new_tech_data = [], new_non_tech_data = [];
@@ -135,9 +124,11 @@ const RegistrationForm = () => {
         for (var i = 0; i < temp_non_tech_data.length; i++) {
             new_non_tech_data.push(temp_non_tech_data[i].value);
         }
+        // Set filtered events to original data values
         data.tech_event = new_tech_data;
         data.non_tech_event = new_non_tech_data;
-        await database.collection('responses').doc(`${data.fullname}_${data.contact}_${data.identityNo}`).set(data)
+        // Sent data
+        await database.collection('new_responses').doc(data.id).set(data)
             .then(alert('Response submitted!'))
             .then(console.log(data)).then(setSelectedNonTech('')).then(setSelectedTech(''))
             .catch((e) => alert(e));
@@ -146,8 +137,23 @@ const RegistrationForm = () => {
     const [selectedNonTech, setSelectedNonTech] = useState('');
     const [registrationFee, setRegistrationFee] = useState(0);
     useEffect(() => {
+        const calculateFee = () => {
+            var tech_fee = 0, non_tech_fee = 0;
+            if (selectedTech.length < 3) {
+                tech_fee += selectedTech.length * 60;
+            } else if (selectedTech.length % 3 < 3) {
+                tech_fee += (parseInt(selectedTech.length / 3) * 150) + (parseInt(selectedTech.length % 3) * 60)
+            }
+            if (selectedNonTech.length < 3) {
+                non_tech_fee += selectedNonTech.length * 60;
+            } else if (selectedNonTech.length % 3 < 3) {
+                non_tech_fee += (parseInt(selectedNonTech.length / 3) * 150) + (parseInt(selectedNonTech.length % 3) * 60)
+            }
+            return tech_fee + non_tech_fee;
+        }
         setRegistrationFee(calculateFee(selectedTech, selectedNonTech));
     }, [selectedNonTech, selectedTech])
+    const id = firebase.firestore().collection('stack_over').doc().id
     return (
         <div>
             <AnimatedCursor
@@ -163,9 +169,10 @@ const RegistrationForm = () => {
                 <div>
                     <Formik
                         className='formik-form'
-                        initialValues={{ fullname: '', email: '', contact: '', college: '', identityNo: '', tech_event: '', non_tech_event: '', campusRef: '', registration_fee: '', group_details: '', submission_time: '' }}
+                        initialValues={{ id: id, fullname: '', email: '', contact: '', college: '', identityNo: '', tech_event: '', non_tech_event: '', campusRef: '', registration_fee: '', group_details: '', submission_time: '' }}
                         onSubmit={(values, { resetForm, setSubmitting }) => {
                             const data = {
+                                id: id,
                                 fullname: values.fullname,
                                 email: values.email,
                                 contact: values.contact,

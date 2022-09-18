@@ -26,7 +26,7 @@
     /* Set the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
-
+    background-clip: text;
     /* Use the text as a mask for the background. */
     /* This will show the gradient as a text color rather than element bg. */
     -webkit-background-clip: text;
