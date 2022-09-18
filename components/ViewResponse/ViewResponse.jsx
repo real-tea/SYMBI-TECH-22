@@ -21,7 +21,7 @@ export default function ViewResponse() {
         <div className='view-response-container'>
             <CSVLink
                 data={data}
-                filename={file_name}
+                filename={`${file_name}.csv`}
                 className="btn btn-primary"
                 target="_blank"
             >Download Latest Responses</CSVLink>
