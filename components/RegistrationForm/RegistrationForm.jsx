@@ -126,6 +126,17 @@ const RegistrationForm = () => {
     async function sendData(data, setSubmitting) {
         setSubmitting(true);
         data.submission_time = current_time();
+        const temp_tech_data = data.tech_event;
+        const temp_non_tech_data = data.non_tech_event;
+        var new_tech_data = [], new_non_tech_data = [];
+        for (var i = 0; i < temp_tech_data.length; i++) {
+            new_tech_data.push(temp_tech_data[i].value);
+        }
+        for (var i = 0; i < temp_non_tech_data.length; i++) {
+            new_non_tech_data.push(temp_non_tech_data[i].value);
+        }
+        data.tech_event = new_tech_data;
+        data.non_tech_event = new_non_tech_data;
         await database.collection('responses').doc(`${data.fullname}_${data.contact}_${data.identityNo}`).set(data)
             .then(alert('Response submitted!'))
             .then(console.log(data)).then(setSelectedNonTech('')).then(setSelectedTech(''))
@@ -152,7 +163,7 @@ const RegistrationForm = () => {
                 <div>
                     <Formik
                         className='formik-form'
-                        initialValues={{ fullname: '', email: '', contact: '', college: '', identityNo: '', tech_event: '', non_tech_event: '', campusRef: '', registration_fee: '', group_details: '', submission_time: '' }}
+                        initialValues={{ fullname: 'Test', email: 'Test@g.com', contact: parseInt(123), college: 'Test', identityNo: 'Test', tech_event: '', non_tech_event: '', campusRef: '', registration_fee: '', group_details: '', submission_time: '' }}
                         onSubmit={(values, { resetForm, setSubmitting }) => {
                             const data = {
                                 fullname: values.fullname,
@@ -161,8 +172,8 @@ const RegistrationForm = () => {
                                 college: values.college,
                                 identityNo: values.identityNo,
                                 group_details: values.group_details,
-                                tech_event: JSON.stringify(selectedTech),
-                                non_tech_event: JSON.stringify(selectedNonTech),
+                                tech_event: selectedTech,
+                                non_tech_event: selectedNonTech,
                                 campusRef: values.campusRef,
                                 registration_fee: registrationFee,
                                 submission_time: ''
