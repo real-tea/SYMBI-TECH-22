@@ -8,6 +8,11 @@ import { basicSchema } from './registrationSchema';
 import { database } from '../firebase';
 import Select from 'react-select';
 import { useEffect } from 'react';
+import { m } from 'framer-motion';
+
+const current_time = () => {
+    return new Date().toLocaleString();
+}
 
 const tech_data = [
     {
@@ -120,6 +125,7 @@ const RegistrationForm = () => {
     }
     async function sendData(data, setSubmitting) {
         setSubmitting(true);
+        data.submission_time = current_time();
         await database.collection('responses').doc(`${data.fullname}_${data.contact}_${data.identityNo}`).set(data)
             .then(alert('Response submitted!'))
             .then(console.log(data)).then(setSelectedNonTech('')).then(setSelectedTech(''))
@@ -146,7 +152,7 @@ const RegistrationForm = () => {
                 <div>
                     <Formik
                         className='formik-form'
-                        initialValues={{ fullname: '', email: '', contact: '', college: '', identityNo: '', tech_event: '', non_tech_event: '', campusRef: '', registration_fee: '', group_details: '' }}
+                        initialValues={{ fullname: '', email: '', contact: '', college: '', identityNo: '', tech_event: '', non_tech_event: '', campusRef: '', registration_fee: '', group_details: '', submission_time: '' }}
                         onSubmit={(values, { resetForm, setSubmitting }) => {
                             const data = {
                                 fullname: values.fullname,
@@ -158,7 +164,8 @@ const RegistrationForm = () => {
                                 tech_event: JSON.stringify(selectedTech),
                                 non_tech_event: JSON.stringify(selectedNonTech),
                                 campusRef: values.campusRef,
-                                registration_fee: registrationFee
+                                registration_fee: registrationFee,
+                                submission_time: ''
                             };
                             sendData(data, setSubmitting);
                             resetForm(values);
