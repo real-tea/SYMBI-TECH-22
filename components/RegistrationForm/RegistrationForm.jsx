@@ -168,7 +168,7 @@ const RegistrationForm = () => {
                                 submission_time: ''
                             };
                             sendData(data, setSubmitting);
-                            resetForm(values);
+                            resetForm({ values: '' });
                             handleReset();
                         }}
                         validationSchema={basicSchema}
@@ -256,14 +256,15 @@ const RegistrationForm = () => {
                                 <p className="error-msg">{errors.campusRef && touched.campusRef && errors.campusRef}</p>
                                 <p className='event-heading'>Technical Events</p>
                                 {/* Technical Events */}
-                                <Field
+                                <Select
                                     className="multi-select"
                                     name="multiTech"
                                     options={tech_data}
-                                    component={Select}
+                                    // component={Select}
                                     placeholder="Select Technical Events"
                                     isMulti={true}
                                     onChange={(e) => { setSelectedTech(e) }}
+                                    value={selectedTech}
                                 />
                                 <p className="error-msg">{errors.tech_event && touched.tech_event && errors.tech_event && selectedTech.length <= 2 && 'Select atleast 3 tech events'}</p>
                                 <p className='event-heading'>Non-Technical Events</p>
@@ -276,6 +277,7 @@ const RegistrationForm = () => {
                                     placeholder="Select Non Technical Events"
                                     isMulti={true}
                                     onChange={(e) => { setSelectedNonTech(e) }}
+                                    value={selectedNonTech}
                                 />
                                 <p className="error-msg">{errors.non_tech_event && touched.non_tech_event && errors.non_tech_event && selectedNonTech.length <= 1 && 'Select atleast 2 non-tech events'}</p>
                                 <p className='registration-fee'>{"Registration Fee: ₹" + registrationFee}</p>
