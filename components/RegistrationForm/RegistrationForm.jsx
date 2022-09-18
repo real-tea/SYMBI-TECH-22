@@ -127,6 +127,8 @@ const RegistrationForm = () => {
         // Set filtered events to original data values
         data.tech_event = new_tech_data;
         data.non_tech_event = new_non_tech_data;
+        JSON.stringify(data.tech_event);
+        JSON.stringify(data.non_tech_event);
         // Sent data
         await database.collection('new_responses').doc(data.id).set(data)
             .then(alert('Response submitted!'))

@@ -1,0 +1,13 @@
+.btn-primary {
+    background-color: white;
+    color: purple;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-response-container {
+    display: absolute;
+    top: 50%;
+}

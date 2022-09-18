@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { database } from '../firebase';
-import CsvDownload from 'react-json-to-csv';
+import { CSVLink, CSVDownload } from "react-csv";
 
 export default function ViewResponse() {
     const getPostsFromFirebase = [];
@@ -18,8 +18,13 @@ export default function ViewResponse() {
     const data = posts;
     const file_name = new Date().toLocaleString();
     return (
-        <div>
-            <CsvDownload data={data} filename={`Responses ${file_name}.csv`} />
-        </div>
+        <div className='view-response-container'>
+            <CSVLink
+                data={data}
+                filename={file_name}
+                className="btn btn-primary"
+                target="_blank"
+            >Download Latest Responses</CSVLink>
+        </div >
     )
 }
