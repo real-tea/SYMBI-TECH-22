@@ -64,8 +64,8 @@ const tech_data = [
         label: 'Model testing: Resilience'
     },
     {
-        value: 'CodeWars',
-        label: 'CodeWars'
+        value: 'Code & Board',
+        label: 'Code & Board'
     }
 ]
 
