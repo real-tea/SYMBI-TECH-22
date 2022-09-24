@@ -29,7 +29,7 @@ export default function About() {
 For the first time, it is planned to be a centralized national-level event 🚀.<br/>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
-<span shadow color = "gradient" className="gradient-text">SymbITech</span> will help young minds, broaden their vision, and surrender to their instincts for knowledge
+<span shadow color = "gradient" className="gradient-text">SymbITech</span> will help young minds, broaden their vision, and surrender to their instincts for knowledge and <span shadow color="gradient" className="gradient-text">COSMOS</span> 👨‍🚀
 </p>    <br/>
 <p className="about-subtext">SymbITech, the Annual Technical Fest of SIT is all set to blow up everyone’s mind with lots off challenging events and knowledge hunts. 🤯</p>
                             <p className="about-subtext"></p>
