@@ -31,7 +31,7 @@ export default function Events() {
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Paint your Galaxy</h1>
+            {/* <h1 className="about-header">Paint your Galaxy</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -48,7 +48,12 @@ export default function Events() {
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
+<p className = "about-subtext">
+                                {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
+                               
+                                A Poster making competition to see how creative and communicative our students are through a piece of paper.
 
+                               <br/></p> 
 
 <br/>
 <p className="about-subtext">

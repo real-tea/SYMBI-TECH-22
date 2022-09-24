@@ -31,7 +31,7 @@ export default function Events() {
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">TECH MUN</h1>
+            {/* <h1 className="about-header">TECH MUN</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -41,8 +41,7 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
 
-                                Chairs: Externals to avoid bias
-                                No. of Participants: 100 (20 companies x 5 participants)
+                                Tech Model United Nations is an academic simulation where students will play the role of delegates from different corporations and attempt to solve real-world issues with the policies and perspectives of their assigned corporations
 
 <br/></p>   
 <h1 className="about-main-text">Event Rules</h1>
@@ -54,9 +53,8 @@ export default function Events() {
 
 <br/>
 <p className="about-subtext">
-1. Wear Formals.<br/>
-2. Conversations strictly in English.<br/>
-3. Punctuality. <br/>
+1. The participants will be required to follow and maintain decorum.<br/>
+2. The participants will be required to be extremely punctual to ensure the proper flow of the procedure.
 
 </p>
                             

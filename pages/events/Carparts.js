@@ -32,7 +32,7 @@ export default function Events() {
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Car Parts Assembly</h1>
+            {/* <h1 className="about-header">Car Parts Assembly</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -41,7 +41,8 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Participants will be given basic car parts for example,Carburettor, Exhaust, Spark plug and they’ll be required to fix and assemble it in the given time.
+
+                                An opportunity to tinker, learn and have fun in this event where your team will be given vehicle parts like Carburettor, spark plugs etc, which you have to assemble and learn
 .<br/></p>   
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
@@ -52,8 +53,8 @@ export default function Events() {
 
 <br/>
 <p className="about-subtext">
-1.  Team of 4-5 required and will be a time-based event. They will  be given necessary tools to fix the parts.<br/>
-
+Level 1: Teams will have to identify car parts and state their purpose in brief. <br/>
+Level 2: The given parts will have to be assembled correctly in the least amount of time. 
 </p>
                             
                             <p className="about-subtext"></p>

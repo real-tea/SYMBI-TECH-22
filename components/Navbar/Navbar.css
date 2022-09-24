@@ -24,6 +24,10 @@
     display: flex;
 }
 
+.SymbiosisLogo{
+    top : 40px;
+}
+
 .navbar-items-text {
     display: flex;
     color: #fffffe;

@@ -18,10 +18,10 @@ const Event = () => {
       <div className='event-grid'>
         <div className='event-list-l'>
           <ul>
-          <Link href="/events/Codewars">
+          <Link href="/events/codeboard">
             <li className='event-item'>
             
-              <div className='event-heading'>CodeWars</div>
+              <div className='event-heading'>Code & Board</div>
               <div className='event-desc'>Hackathon in which problem statements are related to the theme.</div>
             
             </li>
@@ -83,7 +83,7 @@ const Event = () => {
             </li>
           </Link>
 
-          <Link href="/events/">
+          <Link href="/events/model">
             <li className='event-item'>
               <div className='event-heading'>3D model design</div>
               <div className='event-desc'>Designing a model on AutoCAD to 3D print it.</div>

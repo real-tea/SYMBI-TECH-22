@@ -31,7 +31,7 @@ export default function Events() {
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Lathe Wars</h1>
+            {/* <h1 className="about-header">Lathe Wars</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -40,9 +40,10 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                We assign a lathe Machine to individual participants. Maximum 14 lathe Machines could be assigned at a time period.The participant who has the most accurate, fine component with respect to the design selected and the time required to make the job will be selected as the winner.
+                                A Lathe Machine will be assigned to individual participants. Each participant would be provided with designs of two components on spot. If the tool is not available then time will be paused.
 
-.<br/></p>  
+
+<br/></p>  
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
@@ -69,7 +70,7 @@ export default function Events() {
                     </Grid>
                     <Grid xs={12} md={6} justify = "center" className="about-img-col">
                        
-                            <Image className="about-img" src={Poster} height ="9    00px" bottom="400px"/>
+                            <Image className="about-img" src={Poster} height ="900px" bottom="400px"/>
                         
                     </Grid>
                 </Grid.Container>
