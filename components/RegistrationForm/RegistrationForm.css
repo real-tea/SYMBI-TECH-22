@@ -139,6 +139,10 @@ select {
     padding-top: 10px;
 }
 
+.caption {
+    max-width: 560px;
+}
+
 @media only screen and (max-width: 660px) {
 
     input,
@@ -165,6 +169,10 @@ select {
 
     .submit-btn {
         width: 253px;
+    }
+
+    .caption {
+        max-width: 253px;
     }
 
     .error-msg {

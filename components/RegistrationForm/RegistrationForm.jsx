@@ -104,6 +104,9 @@ const non_tech_data = [
     }
 ]
 
+
+const all_events_data = tech_data.concat(non_tech_data);
+
 const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
     ssr: false
 });
@@ -115,46 +118,42 @@ const RegistrationForm = () => {
         // Set current time
         data.submission_time = current_time();
         // Filter event names from Tech & Non-tech events
-        const temp_tech_data = data.tech_event;
-        const temp_non_tech_data = data.non_tech_event;
-        var new_tech_data = [], new_non_tech_data = [];
-        for (var i = 0; i < temp_tech_data.length; i++) {
-            new_tech_data.push(temp_tech_data[i].value);
-        }
-        for (var i = 0; i < temp_non_tech_data.length; i++) {
-            new_non_tech_data.push(temp_non_tech_data[i].value);
+        const temp_event_data = data.events;
+        var new_event_data = [];
+        for (var i = 0; i < temp_event_data.length; i++) {
+            new_event_data.push(temp_event_data[i].value);
         }
         // Set filtered events to original data values
-        data.tech_event = new_tech_data;
-        data.non_tech_event = new_non_tech_data;
-        JSON.stringify(data.tech_event);
-        JSON.stringify(data.non_tech_event);
+        data.events = new_event_data;
+        JSON.stringify(data.events);
         // Sent data
         await database.collection('new_responses').doc(data.id).set(data)
             .then(alert('Response submitted!'))
-            .then(console.log(data)).then(setSelectedNonTech('')).then(setSelectedTech(''))
+            .then(console.log(data)).then(setSelectedEvents(''))
             .catch((e) => alert(e));
     }
-    const [selectedTech, setSelectedTech] = useState('');
-    const [selectedNonTech, setSelectedNonTech] = useState('');
+    // const [selectedTech, setSelectedTech] = useState('');
+    // const [selectedNonTech, setSelectedNonTech] = useState('');
+    const [selectedEvents, setSelectedEvents] = useState('');
     const [registrationFee, setRegistrationFee] = useState(0);
     useEffect(() => {
         const calculateFee = () => {
-            var tech_fee = 0, non_tech_fee = 0;
-            if (selectedTech.length < 3) {
-                tech_fee += selectedTech.length * 60;
-            } else if (selectedTech.length % 3 < 3) {
-                tech_fee += (parseInt(selectedTech.length / 3) * 150) + (parseInt(selectedTech.length % 3) * 60)
-            }
-            if (selectedNonTech.length < 3) {
-                non_tech_fee += selectedNonTech.length * 60;
-            } else if (selectedNonTech.length % 3 < 3) {
-                non_tech_fee += (parseInt(selectedNonTech.length / 3) * 150) + (parseInt(selectedNonTech.length % 3) * 60)
-            }
-            return tech_fee + non_tech_fee;
+            // var tech_fee = 0, non_tech_fee = 0;
+            // if (selectedTech.length < 3) {
+            //     tech_fee += selectedTech.length * 60;
+            // } else if (selectedTech.length % 3 < 3) {
+            //     tech_fee += (parseInt(selectedTech.length / 3) * 150) + (parseInt(selectedTech.length % 3) * 60)
+            // }
+            // if (selectedNonTech.length < 3) {
+            //     non_tech_fee += selectedNonTech.length * 60;
+            // } else if (selectedNonTech.length % 3 < 3) {
+            //     non_tech_fee += (parseInt(selectedNonTech.length / 3) * 150) + (parseInt(selectedNonTech.length % 3) * 60)
+            // }
+            const fee = selectedEvents.length * 100;
+            return fee;
         }
-        setRegistrationFee(calculateFee(selectedTech, selectedNonTech));
-    }, [selectedNonTech, selectedTech])
+        setRegistrationFee(calculateFee());
+    }, [selectedEvents])
     const id = firebase.firestore().collection('stack_over').doc().id
     return (
         <div>
@@ -171,7 +170,7 @@ const RegistrationForm = () => {
                 <div>
                     <Formik
                         className='formik-form'
-                        initialValues={{ id: id, fullname: '', email: '', contact: '', college: '', identityNo: '', tech_event: '', non_tech_event: '', campusRef: '', registration_fee: '', group_details: '', submission_time: '' }}
+                        initialValues={{ id: id, fullname: '', email: '', contact: '', college: '', identityNo: '', events: '', campusRef: '', registration_fee: '', group_details: '', submission_time: '' }}
                         onSubmit={(values, { resetForm, setSubmitting }) => {
                             const data = {
                                 id: id,
@@ -181,8 +180,9 @@ const RegistrationForm = () => {
                                 college: values.college,
                                 identityNo: values.identityNo,
                                 group_details: values.group_details,
-                                tech_event: selectedTech,
-                                non_tech_event: selectedNonTech,
+                                // tech_event: selectedTech,
+                                // non_tech_event: selectedNonTech,
+                                events: selectedEvents,
                                 campusRef: values.campusRef,
                                 registration_fee: registrationFee,
                                 submission_time: ''
@@ -274,9 +274,8 @@ const RegistrationForm = () => {
                                     placeholder="Campus Ambassador Referral Number (Optional)"
                                 />
                                 <p className="error-msg">{errors.campusRef && touched.campusRef && errors.campusRef}</p>
-                                <p className='event-heading'>Technical Events</p>
                                 {/* Technical Events */}
-                                <Select
+                                {/* <Select
                                     className="multi-select"
                                     name="multiTech"
                                     options={tech_data}
@@ -287,9 +286,9 @@ const RegistrationForm = () => {
                                     value={selectedTech}
                                 />
                                 <p className="error-msg">{errors.tech_event && touched.tech_event && errors.tech_event && selectedTech.length <= 2 && 'Select atleast 3 tech events'}</p>
-                                <p className='event-heading'>Non-Technical Events</p>
+                                <p className='event-heading'>Non-Technical Events</p> */}
                                 {/* Non Technical Events */}
-                                <Field
+                                {/* <Field
                                     className="multi-select"
                                     name="multiNonTech"
                                     options={non_tech_data}
@@ -299,9 +298,22 @@ const RegistrationForm = () => {
                                     onChange={(e) => { setSelectedNonTech(e) }}
                                     value={selectedNonTech}
                                 />
-                                <p className="error-msg">{errors.non_tech_event && touched.non_tech_event && errors.non_tech_event && selectedNonTech.length <= 1 && 'Select atleast 2 non-tech events'}</p>
+                                <p className="error-msg">{errors.non_tech_event && touched.non_tech_event && errors.non_tech_event && selectedNonTech.length <= 1 && 'Select atleast 2 non-tech events'}</p> */}
+                                <p className='event-heading'>Select Events</p>
+                                {/* Select Events */}
+                                <Field
+                                    className="multi-select"
+                                    name="multiNonTech"
+                                    options={all_events_data}
+                                    component={Select}
+                                    placeholder="Select Non Technical Events"
+                                    isMulti={true}
+                                    onChange={(e) => { setSelectedEvents(e), console.log(selectedEvents); }}
+                                    value={selectedEvents}
+                                    isOptionDisabled={(e) => selectedEvents.length >= 5 ? true : false}
+                                />
                                 <p className='registration-fee'>{"Registration Fee: ₹" + registrationFee}</p>
-                                {"Discount will be added if the events are in multiples of 3"}
+                                <p className='caption'>{"Max. 5 events at a time. If you want to register in more than 5, submit the form again."}</p>
                                 <button className="submit-btn" type="submit" disabled={isSubmitting}>
                                     Submit
                                 </button>
