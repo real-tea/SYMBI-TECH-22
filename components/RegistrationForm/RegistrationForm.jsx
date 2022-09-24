@@ -149,7 +149,7 @@ const RegistrationForm = () => {
             // } else if (selectedNonTech.length % 3 < 3) {
             //     non_tech_fee += (parseInt(selectedNonTech.length / 3) * 150) + (parseInt(selectedNonTech.length % 3) * 60)
             // }
-            const fee = selectedEvents.length * 100;
+            const fee = selectedEvents.length >= 1 ? 100 : 0;
             return fee;
         }
         setRegistrationFee(calculateFee());
