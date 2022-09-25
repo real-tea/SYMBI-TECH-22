@@ -21,7 +21,7 @@ const Event = () => {
           <Link href="/events/codeboard">
             <li className='event-item'>
             
-              <div className='event-heading'>Codes & Boards</div>
+              <div className='event-heading'>Code & Board</div>
               <div className='event-desc'>Hackathon in which problem statements are related to the theme.</div>
             
             </li>
@@ -51,7 +51,7 @@ const Event = () => {
           <Link href="/events/Weavingweb">
             <li className='event-item'>
               <div className='event-heading'>Weaving the Web</div>
-              <div className='event-desc'>Beautify the given webpage structure using CSS.</div>
+              <div className='event-desc'>Weaving the Web.</div>
             </li>
           </Link>
 
@@ -100,7 +100,7 @@ const Event = () => {
           <Link href="/events/aimodel">
             <li className='event-item'>
               <div className='event-heading'>Al Model</div>
-              <div className='event-desc'>Create a prototype/project implementing the use of Artificial Intelligence.</div>
+              <div className='event-desc'>Present a prototype/project implementing the use of Artificial Intelligence.</div>
             </li>
           </Link>
           </ul>
@@ -111,7 +111,7 @@ const Event = () => {
           <Link href="/events/Carparts">
             <li className='event-item'>
               <div className='event-heading'>Car parts assembly</div>
-              <div className='event-desc'>Tinker and assemble given car parts in the least amount of time.</div>
+              <div className='event-desc'>Car parts assembly.</div>
             </li>
           </Link>
 
