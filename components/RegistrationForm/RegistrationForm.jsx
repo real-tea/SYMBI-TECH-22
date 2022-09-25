@@ -306,7 +306,7 @@ const RegistrationForm = () => {
                                     name="multiNonTech"
                                     options={all_events_data}
                                     component={Select}
-                                    placeholder="Select Non Technical Events"
+                                    placeholder="Select Events"
                                     isMulti={true}
                                     onChange={(e) => { setSelectedEvents(e), console.log(selectedEvents); }}
                                     value={selectedEvents}
