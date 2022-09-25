@@ -27,12 +27,12 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>Battle of Gods</title>
+                <title>Best out of Goods</title>
             
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Battle of Gods</h1>
+            {/* <h1 className="about-header">Battle of Gods</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -42,11 +42,9 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Venue of Choice: 2 interconnected labs 
-                                No. of Participants: Expected to be under 100
-                                Each team must have: 2-5 people
+                                The main objective of this competition is to encourage students to design and build an engineering model by applying their knowledge and creativity.
 
-.<br/></p>  
+    <br/></p>  
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
@@ -56,10 +54,10 @@ export default function Events() {
 
 <br/>
 <p className="about-subtext">
-1. Formals.<br/>
-2. No Verbal and Physical abuse tolerated.<br/>
-3. Maintain Decorum and peace.<br/>
-4. Punctuality for tasks assigned
+1. No ready or semi-finished model or matter would be accepted by teams in the competition.<br/>
+2. Teams will be judged on creativity, utilization of resources, & design.<br/>
+3. Teams may choose from any available materials given at their disposal.<br/>
+
 
 
 </p>

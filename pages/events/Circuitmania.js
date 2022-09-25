@@ -32,7 +32,7 @@ export default function Events() {
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Circuit-O-Mania</h1>
+            {/* <h1 className="about-header">Circuit-O-Mania</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -41,7 +41,8 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                We create five basic circuits of “Type A, B, C, D, E”. These 5 include online as well hardware based circuits; each “Type” of a circuit has further subdivisions 1, 2 and 3 then we give the player choice of choosing a circuit from A to E and randomly allot the subdivision 1/2/3. Player solves the circuit in a stipulated amount of time. The player who solves the fastest in a category will be the winner.
+
+                                Choose from a variety of circuits & test your knowledge of electronics to debug them & win big!
 <br/>
 </p>  
 <h1 className="about-main-text">Event Rules</h1>
@@ -53,9 +54,9 @@ export default function Events() {
 
 <br/>
 <p className="about-subtext">
-1. Stop timers shall be strictly followed.<br/>
-2. A player can choose only 1 circuit per day.<br/>
-3. Any sort of help from peers/internet shall lead to disqualification.
+1. Once a circuit is chosen, it cannot be changed.<br/>
+2. Stop timers shall be strictly followed.<br/>
+3. Any sort of help from peers/the internet shall lead to disqualification.
 
 </p>
                             

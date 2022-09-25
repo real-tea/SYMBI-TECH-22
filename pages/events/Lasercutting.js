@@ -32,7 +32,7 @@ export default function Events() {
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Laser Cutting</h1>
+            {/* <h1 className="about-header">Laser Cutting</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -42,9 +42,7 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
 
-                                Participants will be introduced to the laser cutting machines, a brief introduction and description of the machines themselves and also the rules and objectives of the event.
-Each group will be given 4-5 hours to come up with an original and unique design with complete creative control. Out of all the groups, the top 5 designs will be selected and be processed for printing the next day.
-
+                                Each team will be given two hours to come up with an original and unique design within the designated dimensions, with complete creative control. Out of all the designs, top 5 selected and processed for laser cutting, the next day. MDF sheets of 8x4 feet will be provided for laser cutting.
 <br/></p> 
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}

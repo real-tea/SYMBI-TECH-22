@@ -33,7 +33,7 @@ export default function Events() {
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Level Up</h1>
+            {/* <h1 className="about-header">Level Up</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -42,7 +42,7 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                This event will start from the ground floor. Each team will have to finish the task of the particular department in a given time and move to the next floor. Ground floor will have tasks related to the civil department, the first floor will have tasks related to the mechanical department, the third floor will have tasks related to the ENTC department and the fourth floor will have tasks related to the CS/IT/AIML/RNA department. The fifth floor will be the last floor and will have tasks which will incorporate some aspects of each department. The second floor is a blackhole.
+                                The teams will have to finish the tasks subsequently on each floor in the least amount of time possible and level up to the next floor.
 
 
 

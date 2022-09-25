@@ -27,12 +27,12 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>Android Artists</title>
+                {/* <title>Android Artists</title> */}
             
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Android Artists</h1>
+            {/* <h1 className="about-header">Android Artists</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -42,9 +42,8 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                2 level game in which 1st level consists of debugging the given code and getting the secret code and 2nd level consists of solving the quest and gaining the prize. Both levels need to be solved in the given time frame.
-.<br/></p>    
-<h1 className="about-main-text">Event Rules</h1>
+2 Levels in this game.<br/></p>    
+{/* <h1 className="about-main-text">Event Rules</h1> */}
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
@@ -53,11 +52,15 @@ export default function Events() {
 
 <br/>
 <p className="about-subtext">
-1. Team of 2.<br/>
-2. Phones to be kept beside the keyboard to maintain your own checkpoints.<br/>
-3. refer to the hints provided by the host.<br/>
-4. total time to solve 45-60mins. <br/>
-5. strictly no discussions amongst yourself (leads to straight up disqualification). <br/>
+Level 1 : Debug<br/>
+* Debug the code <br/>
+* Find the error <br/>
+<br/>
+Level 2 : Treasure Hunt <br/>
+* Use the error from the previous level to find what the passcode could be to enter level 2.<br/>
+* A UI will be displayed once you log in with the correct passcode which will lead to the display of 4 chests. <br/>
+* Choose a Chest and you’ll be allotted a quest within that chest in the app. <br/>
+* The first person to solve the quest within the time frame wins the prize. <br/>
 
 
 </p>

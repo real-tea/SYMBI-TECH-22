@@ -31,7 +31,7 @@ export default function Events() {
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">AI-Model</h1>
+            {/* <h1 className="about-header">AI-Model</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -41,10 +41,7 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Every participant is supposed to make a project/prototype demonstrating the use of artificial intelligence.
-                                Participants can pick the language & framework of their choice.
-                                It must fall in the category of either of the problem statements. 
-                                The project should be operational at the time of demo, it will be judged based on its implementation at the time of demo
+                                Creating a project/Prototype that implements artificial intelligence. The sub-domain can be from any field (healthcare, finance, military, etc.). The project should be created and operational at the time of competition and demonstrated to the panellists. Submission of the project should be done in a Jupyter Notebook file
                             </p> 
                             .<br/>
 <h1 className="about-main-text">Event Rules</h1>
@@ -56,9 +53,10 @@ export default function Events() {
 
 <br/>
 <p className="about-subtext">
-1. Can be played in 2 modes(time based:30 min and team based).<br/>
-2. Max 3 attempts per clue.<br/>
-3. Teams have to debug and reach to clues before time runs out or another team reaches the end point.
+1. The code used in the project should not be plagiarized. Any existing project should not be modified end to end. Only a part for reference can be used.<br/>
+2. References to any other projects/documentation should be clearly mentioned.<br/>
+3. Any framework/module of your choice can be used.<br/>
+4. Free APIs are allowed as long as due references are mentioned and no licenses are violated
 
 </p>
                             

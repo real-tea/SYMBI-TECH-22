@@ -33,7 +33,7 @@ export default function Events() {
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Constructo</h1>
+            {/* <h1 className="about-header">Constructo</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">

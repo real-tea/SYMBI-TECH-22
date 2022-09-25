@@ -32,7 +32,7 @@ export default function Events() {
             </Head>
             
             <div className="about" id="about">
-            <h1 className="about-header">Hunting Through Cosmos</h1>
+            {/* <h1 className="about-header">Hunting Through Cosmos</h1> */}
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -44,12 +44,16 @@ export default function Events() {
 
                                 
 <br/> 
-<h1 className="about-main-text">Rules</h1>
+{/* <h1 className="about-main-text">Rules</h1> */}
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
 </p>    
+<p className = "about-subtext">
+                                {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
+                                The objective is to hunt all over the campus for clues and hints which will be based on the theme of the technical fest ‘COSMOS’, to navigate further and find the final treasure. The team who reaches the last stage and cracks the final clue in the least amount of time will win.
+                                <br/></p> 
 
 <br/>
 <p className="about-subtext">
