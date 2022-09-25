@@ -26,7 +26,7 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>CodeWars</title>
+                <title>Codes & Boards</title>
             
             </Head>
             
