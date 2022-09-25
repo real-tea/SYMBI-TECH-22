@@ -3,12 +3,14 @@ import Navbar from '../Navbar/Navbar';
 
 function About_us() {
   return (
-    <div>
+    <>
     <Navbar/>
     <div className="aboutus">
             <div className="aboutus-header">About us</div>
             <p className="aboutus-subtext">
-            <span className="gradient-text">Symbiosis Institute of Technology</span> was established in the year 2008 and is currently ranked SECOND among the top emerging private colleges of India by INDIA TODAY 2022.🏆
+            <span className="gradient-text">
+            Symbiosis Institute of Technology</span>
+            was established in the year 2008 and is currently ranked SECOND among the top emerging private colleges of India by INDIA TODAY 2022.🏆
             <br/>
 
 SIT alongside graduation and postgraduation also provide Ph.D. studies. Apart from classroom learning SIT strongly believes in inculcating the culture of practical learning. 
@@ -29,7 +31,7 @@ Symbiosis Institute of technology brings back its very own and well-renowned tec
         </div>
       
       
-    </div>
+    </>
   )
 }
 
