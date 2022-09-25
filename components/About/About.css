@@ -187,4 +187,8 @@
     .about {
         height: 120vh;
     }
+
+    .about-img {
+        padding-bottom: 150px;
+    }
 }
