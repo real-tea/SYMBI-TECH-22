@@ -1,23 +1,20 @@
 .event-grid {
     position: absolute;
-    top: 200px;
+    top: 350px;
     display: grid;
     grid-template-columns: repeat(2, 0.5fr);
     justify-content: center;
     align-items: center;
-    max-width: 100vw;
+    max-height: 100vh;
     font-weight: bold;
 }
 
 .event-header {
-    font-size: 13rem;
+    font-size: 12rem;
     font-family: 'Cosi Azure Bold', serif;
     font-weight: 700;
     color: #7b009680;
-    position: absolute;
-    /* top : -10px; */
-    padding-left: 30px;
-    z-index: -1;
+    padding-left: 10px;
 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -27,33 +24,19 @@
     user-select: none;
 }
 
-.event-list-l {
-    text-align: right;
-}
-
-event-list-r {
-    text-align: left;
-}
-
-.event-list-l,
-event-list-r {
-    min-width: 40vw;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
 .event-heading {
-    font-size: 3rem;
+    font-size: 36px;
 }
 
 .event-desc {
-    font-size: 1.2rem;
+    font-size: 20px;
 }
 
 .event-item {
     transition: 0.3s;
     margin: 20px;
+    max-width: 90vw;
+    min-width: 90vw;
     /* background-color: rgb(123, 0, 150, 0.17); */
 }
 
