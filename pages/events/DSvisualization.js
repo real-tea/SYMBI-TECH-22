@@ -41,9 +41,7 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
 
-                                The events will be a individual event.
-The event consist of 4-5 datasets on which participants can choose and carryout Data cleaning, Data visualization and analysis within the time period of 1.5 hour. Participants are given hardware on which they have to perform their analysis. Penalty will be awarded if participant cross the time limit.
-Submission should be a python notebook (jupyter notebook)
+                                Individual event where participants choose any one out of five datasets on which data cleaning/pre-processing, data visualization and analysis within the stipulated time period has to be performed. Participants will be given the systems on which they have to perform their analysis. Submissions should be done through a Jupyter Notebook file (.ipynb).
 
 .<br/></p>   
 <h1 className="about-main-text">Event Rules</h1>
@@ -55,9 +53,9 @@ Submission should be a python notebook (jupyter notebook)
 
 <br/>
 <p className="about-subtext">
-1. Any participant found disturbing, or helping in other participant’s work will be disqualified.<br/>
-2. Points will be allotted by trained volunteers and will be verified by head and co-head. (To ensure no favoritism).<br/>
-3. Keep phones on silent and on the desk.
+1. Visualization and analysis has to be performed within the time limit.<br/>
+2. Only the documentation provided for the tools has to be used.<br/>
+3. Only the documentation provided for the tools has to be used.
 
 </p>
                             
