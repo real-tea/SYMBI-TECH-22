@@ -26,8 +26,7 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>DS VIsualisation</title>
-            
+                <title>DS Visualisation</title>            
             </Head>
             
             <div className="about" id="about">
@@ -44,7 +43,7 @@ export default function Events() {
                                 Individual event where participants choose any one out of five datasets on which data cleaning/pre-processing, data visualization and analysis within the stipulated time period has to be performed. Participants will be given the systems on which they have to perform their analysis. Submissions should be done through a Jupyter Notebook file (.ipynb).
 
 .<br/></p>   
-<h1 className="about-main-text">Event Rules</h1>
+<h2 className="about-main-text">Event Rules</h2>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
@@ -55,7 +54,7 @@ export default function Events() {
 <p className="about-subtext">
 1. Visualization and analysis has to be performed within the time limit.<br/>
 2. Only the documentation provided for the tools has to be used.<br/>
-3. Only the documentation provided for the tools has to be used.
+3. Any references used must be duly mentioned in the Notebook file.<br/>
 
 </p>
                             

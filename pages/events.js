@@ -19,7 +19,7 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>Events@SymbITech</title>
+                <title>Events</title>
             </Head>
             <Event />
         </div>
