@@ -54,7 +54,13 @@ export default function Events() {
 <p className="about-subtext">
 1. Visualization and analysis has to be performed within the time limit.<br/>
 2. Only the documentation provided for the tools has to be used.<br/>
-3. Any references used must be duly mentioned in the Notebook file.<br/>
+3. Any references used must be duly mentioned in the Notebook file.<br/><br/>
+<b>Judging Criteria:</b><br/>
+Detailing in visualization<br/>
+Effectiveness in analysis<br/>
+Code readability<br/><br/>
+<b>Team Size:</b> Individual<br/>
+
 
 </p>
                             
