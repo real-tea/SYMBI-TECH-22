@@ -53,9 +53,12 @@ export default function Events() {
 
 <br/>
 <p className="about-subtext">
-1. Choosing references appropriate to the overall theme.<br/>
+1. Choosing references appropriate to the overall theme. <br/>
 2. Originality and creativity will be major criteria for selection.<br/>
-3. Structural integrity of design.
+3. Structural integrity of design.<br/>
+4. Complexity of AutoCAD design.<br/>
+<br/>
+<b>Team Size:</b> Group of 4
 
 </p>
                             
