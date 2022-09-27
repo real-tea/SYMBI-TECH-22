@@ -27,7 +27,7 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>Best out of Goods</title>
+                <title>Best out of Goods</title>    
             
             </Head>
             
@@ -42,10 +42,10 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                The main objective of this competition is to encourage students to design and build an engineering model by applying their knowledge and creativity.
+                                The main objective of this competition is to encourage students to design and build an engineering model by applying their knowledge and creativity. Teams may choose from certain hardware products such as motors, Arduino, sensors and circuits to showcase their talent and technical skills.
 
-    <br/></p>  
-<h1 className="about-main-text">Event Rules</h1>
+    <br/></p>
+<h2 className="about-main-text">Event Rules</h2>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
@@ -57,6 +57,15 @@ export default function Events() {
 1. No ready or semi-finished model or matter would be accepted by teams in the competition.<br/>
 2. Teams will be judged on creativity, utilization of resources, & design.<br/>
 3. Teams may choose from any available materials given at their disposal.<br/>
+<br/>
+
+<b>Judging Criteria</b><br/>
+<b>Stage 1- Design:</b><br/>
+Teams will be evaluated on the basis of their model’s overall design and presentation/appearance. <br/>
+<b>Stage 2- Rationalization:</b><br/>
+Teams should justify their usage of materials and the overall idea of their model.<br/>
+<b>Stage 3- Society Application:</b><br/>
+The teams should have a thoughtful objective behind the idea of their project describing its application.<br/>
 
 
 

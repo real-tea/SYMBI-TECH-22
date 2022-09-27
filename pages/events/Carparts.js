@@ -42,19 +42,22 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
 
-                                An opportunity to tinker, learn and have fun in this event where your team will be given vehicle parts like Carburettor, spark plugs etc, which you have to assemble and learn
+                                An opportunity to tinker, learn and have fun in this event where your team will be given vehicle parts like Carburettor, spark plugs etc, which you have to assemble and learn.
 .<br/></p>   
-<h1 className="about-main-text">Event Rules</h1>
- {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
+<h2 className="about-main-text">Event Rules</h2>
+{/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
- 
-
-<br/>
 <p className="about-subtext">
+This event will be on two levels: <br/>
 Level 1: Teams will have to identify car parts and state their purpose in brief. <br/>
-Level 2: The given parts will have to be assembled correctly in the least amount of time. 
+Level 2: The given parts will have to be assembled correctly in the least amount of time. <br/>
+Required tools will be provided. <br/><br/>
+<b>Team Size:</b> Group of 4 <br/><br/>
+<b>Judging Criteria:</b> The team which assembles the given parts accurately and finishes the given task in the least amount of time will be declared as the winning team.<br/>
+
+
 </p>
                             
                             <p className="about-subtext"></p>

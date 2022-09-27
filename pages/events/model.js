@@ -44,7 +44,7 @@ export default function Events() {
                                 The objective of this event is for participants to create a 3D model (given by us) on AutoCAD or Fusion 360 or MAYA (according to their choice) and the top 3 designs will be selected for 3D printing.
 
 <br/></p>   
-<h1 className="about-main-text">Event Rules</h1>
+<h2 className="about-main-text">Event Rules</h2>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
@@ -53,8 +53,10 @@ export default function Events() {
 
 <br/>
 <p className="about-subtext">
-1. The participants will be required to follow and maintain decorum.<br/>
-2. The participants will be required to be extremely punctual to ensure the proper flow of the procedure.
+1. Participants will have to complete the CAD model within the given amount of time.<br/><br/>
+2. Participants can use their own laptops or work on our provided PCs.<br/><br/>
+3. CAD files will be collected in .obj format through the mail.<br/><br/>
+4. The time provided for creating the model will be approximately 1 hour.<br/>  
 
 </p>
                             
