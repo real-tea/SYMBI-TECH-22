@@ -41,7 +41,7 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
                                 A Lathe Machine will be assigned to individual participants. Each participant would be provided with designs of two components on spot. If the tool is not available then time will be paused.
-
+                                <br/><br/><b>Tools provided:</b> Knurling tool, Grooving Tool, Single Point Cutting tool
 
 <br/></p>  
 <h1 className="about-main-text">Event Rules</h1>
@@ -51,11 +51,14 @@ export default function Events() {
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
   
 
-<br/>
 <p className="about-subtext">
 1. Once a Design is selected it cannot be undone<br/>
-2. Components could be manufactured with the assigned material only.<br/>
-3. Participants with appropriate Footwear would only be allowed to participate. No slippers or Flip Flops allowed. 
+2. Required tools will be provided on the spot.<br/>
+3. Appropriate footwear is mandatory and safety protocols to be followed. No slippers or flip-flops allowed.
+<br/><br/>
+<b>Team Size:</b> Individual<br/><br/>
+<b>Judging Criteria: </b>
+The participant who has the most accurate, fine component with respect to the design selected and the time required to make the job will be selected as the winner.
 
 
 </p>

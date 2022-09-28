@@ -42,7 +42,7 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
 
-                                Choose from a variety of circuits & test your knowledge of electronics to debug them & win big!
+                                Debug from a variety of circuits & test your knowledge of electronics to debug them & win big!
 <br/>
 </p>  
 <h1 className="about-main-text">Event Rules</h1>
@@ -56,8 +56,8 @@ export default function Events() {
 <p className="about-subtext">
 1. Once a circuit is chosen, it cannot be changed.<br/>
 2. Stop timers shall be strictly followed.<br/>
-3. Any sort of help from peers/the internet shall lead to disqualification.
-
+3. Any sort of help from peers/the internet shall lead to disqualification.<br/>
+<b>Team Size:</b> Individual
 </p>
                             
                             <p className="about-subtext"></p>

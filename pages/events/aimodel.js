@@ -26,7 +26,7 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>AI-Model</title>
+                <title>AI Model</title>
             
             </Head>
             
@@ -41,10 +41,10 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Creating a project/Prototype that implements artificial intelligence. The sub-domain can be from any field (healthcare, finance, military, etc.). The project should be created and operational at the time of competition and demonstrated to the panellists. Submission of the project should be done in a Jupyter Notebook file
+                                Creating a project that implements AI. The sub-domain can be from any field (healthcare, finance, military, etc.). The project should be created & operational at the time of competition to the panellists. Submission of the project should be done in a Jupyter Notebook file (.ipynb).
                             </p> 
                             .<br/>
-<h1 className="about-main-text">Event Rules</h1>
+<h2 className="about-main-text">Event Rules</h2>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
@@ -56,8 +56,10 @@ export default function Events() {
 1. The code used in the project should not be plagiarized. Any existing project should not be modified end to end. Only a part for reference can be used.<br/>
 2. References to any other projects/documentation should be clearly mentioned.<br/>
 3. Any framework/module of your choice can be used.<br/>
-4. Free APIs are allowed as long as due references are mentioned and no licenses are violated
-
+4. Free APIs are allowed as long as due references are mentioned and no licenses are violated.<br/>
+<br/>
+<b>Judging Criteria</b><br/>
+Judging will be based on the implementation, innovation, creativity and efficiency of the project by an industry expert.<br/>
 </p>
                             
                             <p className="about-subtext"></p>

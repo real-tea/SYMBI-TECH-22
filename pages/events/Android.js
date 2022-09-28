@@ -27,7 +27,7 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                {/* <title>Android Artists</title> */}
+                {<title>Android Artists</title>}
             
             </Head>
             
@@ -42,26 +42,28 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-2 Levels in this game.<br/></p>    
+                                There will be 2 levels both set to be done in an allotted time frame<br/></p>    
 {/* <h1 className="about-main-text">Event Rules</h1> */}
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
 {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
 
-
+<h2 className="about-main-text">Event Rules</h2>
 <br/>
 <p className="about-subtext">
-Level 1 : Debug<br/>
-* Debug the code <br/>
-* Find the error <br/>
+<b>Level 1 : Debug (15mins)</b><br/>
+1. Debug the code. <br/>
+2. Find what the error is. <br/>
+3. Use the error to figure out what the ‘passcode’ is to get to the next level.<br/>
 <br/>
-Level 2 : Treasure Hunt <br/>
-* Use the error from the previous level to find what the passcode could be to enter level 2.<br/>
-* A UI will be displayed once you log in with the correct passcode which will lead to the display of 4 chests. <br/>
-* Choose a Chest and you’ll be allotted a quest within that chest in the app. <br/>
-* The first person to solve the quest within the time frame wins the prize. <br/>
-
+<b>Level 2 : Treasure Hunt (30 mins)</b><br/>
+1. Use the error from the previous level to find what the passcode could be to enter level 2.<br/>
+2. A UI will be displayed once you log in with the correct passcode which will lead to the display of 4 chests. <br/>
+3. Choose a Chest and you’ll be allotted a quest within that chest in the app. <br/>
+4. The first person to solve the quest within the time frame wins the prize. <br/><br/>
+Theme: Pirates of the Caribbean<br/>
+Each team must have:  Group of 3 members<br/>
 
 </p>
                             
