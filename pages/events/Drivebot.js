@@ -50,17 +50,14 @@ export default function Events() {
 
 <br/>
 <p className="about-subtext">
-Robots per event: 1<br/><br/>
-Robot specifications: 2 ft. X 2 ft. (maximum)<br/>
-Max. weight of robot: 3kg (Except batteries)<br/>
-Arena Length: 30 meters long<br/>
-Time is measured from the second the robot crosses the starting line until the time it reaches the finish line. It is deemed to have crossed the line when the forward most wheel, track, or leg of the robot contacts or crosses over the line.<br/>
-If the Robot crosses a checkpoint, and moves off track, then the Robot would be placed.<br/>
-back on the previous checkpoint crossed. (Obstacles will be ramps, barricades etc.)<br/>
-During the gameplay, if any part of a robot is destructed/ dismantled/ damaged the
-team will be given a timeout to repair at an expense of a penalty, while the next
-team will be called for play.
-Only 1 timeout will be allowed per team.<br/>
+<b>Robots per event:</b> 1<br/><br/>
+<b>Robot specifications:</b> 2 ft. X 2 ft. (maximum)<br/>
+<b>Max. weight of robot:</b> 3kg (Except batteries)<br/>
+<b>Arena Length:</b> 30 meters long<br/><br/>
+Time is measured from the second the robot crosses the starting line until the time it reaches the finish line.<br/> It is deemed to have crossed the line when the forward most wheel, track, or leg of the robot contacts or crosses over the line.<br/>
+If the Robot crosses a checkpoint, and moves off track, then the Robot would be placed back on the previous checkpoint crossed. (Obstacles will be ramps, barricades etc.)<br/>
+During the gameplay, if any part of a robot is destructed/ dismantled/ damaged the team will be given a timeout to repair at an expense of a penalty, while the next team will be called for play.<br/>
+<br/>Only 1 timeout will be allowed per team.<br/>
 
 </p>
                             
