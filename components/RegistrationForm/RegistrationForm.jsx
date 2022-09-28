@@ -313,7 +313,7 @@ const RegistrationForm = () => {
                                     isOptionDisabled={(e) => selectedEvents.length >= 5 ? true : false}
                                 />
                                 <p className='registration-fee'>{"Registration Fee: ₹" + registrationFee}</p>
-                                <p className='caption'>{"Max. 5 events at a time. If you want to register in more than 5, submit the form again."}</p>
+                                <p className='caption'>{selectedEvents.length >= 5 && "Max. 5 events at a time. If you want to register in more than 5, submit the form again."}</p>
                                 <button className="submit-btn" type="submit" disabled={isSubmitting}>
                                     Submit
                                 </button>
