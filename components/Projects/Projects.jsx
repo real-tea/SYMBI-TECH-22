@@ -18,13 +18,13 @@ export default function Projects() {
             <h1 className="projects-header">Events</h1>
 
             <Container className="projects-container">
-                <Fade bottom duration={2000}>
+                <Fade bottom duration={1000}>
                     <Grid.Container gap={2} justify="center">
                         <Grid md={4}>
                             <Link href="/register" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
-                                    <Image priority className="proj-img" src={newsdux} />
+                                        <Image priority className="proj-img" src={newsdux} />
                                     </Link>
                                     {"DS Visualization"}
                                 </div>
@@ -34,7 +34,7 @@ export default function Projects() {
                             <Link href="/register" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
-                                    <Image priority className="proj-img" src={mauka} />
+                                        <Image priority className="proj-img" src={mauka} />
                                     </Link>
                                     {"Constructo"}
                                 </div>
@@ -45,7 +45,7 @@ export default function Projects() {
                             <Link href="/register" target="__blank">
                                 <div className="proj-box">
                                     <Link href="/register">
-                                    <Image priority className="proj-img" src={firepost} />
+                                        <Image priority className="proj-img" src={firepost} />
                                     </Link>
                                     {"Laser Cutting"}
                                 </div>

@@ -1,12 +1,5 @@
 .event-grid {
-    position: absolute;
-    top: 350px;
-    display: grid;
-    grid-template-columns: repeat(2, 0.5fr);
-    justify-content: center;
-    align-items: center;
-    max-height: 100vh;
-    font-weight: bold;
+    padding: 0px;
 }
 
 .event-header {
@@ -14,14 +7,14 @@
     font-family: 'Cosi Azure Bold', serif;
     font-weight: 700;
     color: #7b009680;
-    padding-left: 10px;
-
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    padding: 0px !important;
+    padding-top: 50px !important;
 }
 
 .event-heading {
@@ -34,13 +27,24 @@
 
 .event-item {
     transition: 0.3s;
-    margin: 20px;
-    max-width: 90vw;
-    min-width: 90vw;
-    /* background-color: rgb(123, 0, 150, 0.17); */
+    margin: 20px 0px;
+    padding: 0px 20px;
+    max-width: 100vw;
+    min-width: 100vw;
 }
 
 .event-item:hover {
     background-color: rgb(123, 0, 150);
     transition: 0.3s;
+}
+
+@media only screen and (max-width: 786px) {
+    .event-header {
+        font-size: 6rem;
+        padding-bottom: 0;
+    }
+
+    .event-grid {
+        padding-top: 20px;
+    }
 }
