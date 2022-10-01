@@ -40,8 +40,9 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                This event is about building websites. The participants would be given some code, and they would have to write the rest to complete a simple static website
-.<br/></p> 
+                                This event is about building websites. The participants would be given some code, and they would have to write the rest to complete a simple static website. 
+                                <br/> The participants would be given prewritten HTML which would be common for everyone. Their job would be to beautify it by writing CSS from scratch. 
+<br/></p> 
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
@@ -56,6 +57,8 @@ export default function Events() {
 3. JavaScript would be optional. This event is about testing CSS skills as well as design sense of the participants<br/>
 4. There would be no limit to how much CSS a person can write.  <br/>
 {/* 5. strictly no discussions amongst yourself (leads to straight up disqualification). <br/> */}
+<br/>
+<b>Team Size: </b> Group of 2
 
 
 </p>
