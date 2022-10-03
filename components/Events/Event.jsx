@@ -56,7 +56,7 @@ const Event = () => {
             <Link href="/events/Drivebot">
               <li className='event-item'>
                 <div className='event-heading'>Drive the Bot</div>
-                <div className='event-desc'>Assemble given bot and drive it through the course.</div>
+                <div className='event-desc'>Bring a pre built bot and test your driving skills on the the course.</div>
               </li>
             </Link>
 

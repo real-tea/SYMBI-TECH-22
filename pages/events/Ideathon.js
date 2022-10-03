@@ -40,9 +40,8 @@ export default function Events() {
                             {/* <p className="about-subtext">I&apos;m a Computer Science Undergraduate and a Frontend Developer from India 🇮🇳 Student at heart, and a Developer by profession, I make frontends look good with JavaScript and a sprinkle of CSS ✨ </p> */}
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
-                                Ideathon is an event where the participants get a chance to pitch their ideas or plans
-In front of a panel of judges in order to get a chance to win cash prices. 
-.<br/></p>    
+                                Ideathon is an event where the participants get a chance to pitch their ideas or plans in the tech domain. The objective of the event is to provide absolute beginners with the perspective and ability to start thinking entrepreneurially. 
+<br/></p>    
 <h1 className="about-main-text">Event Rules</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
@@ -54,9 +53,11 @@ In front of a panel of judges in order to get a chance to win cash prices.
 <p className="about-subtext">
 1. This is a single round event.<br/>
 2. Participants will present their idea or plan in front of the judges.<br/>
-3. Participants will be given 6-8 minutes to pitch their idea. It will be followed by the JUDGES’ QnA round for 3 minutes.
-Judges will collectively decide the winners.
-There will be three winners.
+3. Participants will be given 6-8 minutes to pitch their idea. It will be followed by Q&A round by the judges.<br/>
+4. Judges will collectively decide the winners.<br/>
+<br/>
+<b>Team Size: </b> Individual<br/>
+
 
 </p>
                             

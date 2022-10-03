@@ -46,7 +46,7 @@ export default function Events() {
 
 
 
-<h1 className="about-main-text">Event Rules</h1>
+<h2 className="about-main-text">Event Rules</h2>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
 {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
@@ -54,11 +54,13 @@ export default function Events() {
 </p>    
 <br/>
 <p className="about-subtext">
-1. There will be 2 rounds. The 2nd round will consist of all the teams that made it to the top level in the 1st round.<br/>
-2. The participants will register individually. We will form a team of 4 members with 1 member from each department.<br/>
-3. Any random team may get caught into the blackhole.<br/>
-4. Irrespective of the level that the team is on, if the team gets caught in a blackhole, they will have to solve the extra task and move ahead starting from the level they were on previously. <br/>
-5. Use of lifts by any participant from the team will lead to disqualification of the entire team
+1. A volunteer will be assigned to each team who will keep a track of the time taken by them and will assist them if they face any problems. <br/>
+2. The team will start from the ground floor after registering.<br/>
+3. Each floor will have one room with the name of a planet or star written on the door. Teams will have to search for such a room on each floor and perform the given task in the room.<br/>
+4. It is mandatory to solve the tasks given on each floor correctly. Failing to do so will result in disqualification of the team. <br/>
+5. Use of elevators by any participant from the team will lead to disqualification of the entire team. <br/>
+<br/>
+<b>Team Size: </b> Group of 4
 
 </p>
                             

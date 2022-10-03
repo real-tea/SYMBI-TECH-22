@@ -41,7 +41,7 @@ export default function Events() {
                             <p className = "about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
 
-                                There will be 2 teams of 4 members each. Each player will be given a laser gun to tag the opponents and a shield. When all the members of a team are tagged by the opponents, they lose
+                                There will be two teams of 4 members each. Each player will be given a laser gun to tag the opponents and a shield. When all the members of a team are tagged by the opponents, they lose
 .<br/></p>    
 <h1 className="about-main-text">Laser Tag</h1>
  {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
@@ -56,7 +56,10 @@ export default function Events() {
 1. No Physical contact<br/>
 2. No climning arena barricades.<br/>
 3. No Running.<br/>
-4. Stay within the arena
+4. Stay within the arena<br/>
+<br/>
+<b>Team Size:</b> Group of 4<br/>
+
 
 </p>
                             

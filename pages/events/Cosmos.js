@@ -55,14 +55,18 @@ export default function Events() {
                                 The objective is to hunt all over the campus for clues and hints which will be based on the theme of the technical fest ‘COSMOS’, to navigate further and find the final treasure. The team who reaches the last stage and cracks the final clue in the least amount of time will win.
                                 <br/></p> 
 
+<h2 className="about-main-text">Event Rules</h2>
+
 <br/>
 <p className="about-subtext">
 1. Participants will begin at their starting point with the first QR code pointing them to the first hint to go ahead in the game.<br/>
-2. Since the theme is cosmos these hints will be passed on to the participants by answering questions based on the theme.<br/>
-3. Participants must use their phones only to scan the QR codes and they will be disqualified if they fail to follow the rules.<br/>
-4. Along with all the riddles and mysteries , the treasure hunt will have a time limit of 15 minutes(time limit might change based on trial runs). <br/>
-5. Participation will take place in groups of 3-4 members.<br/>
-6. The contestants who reach the last stage and crack the final clue will win the event.<br/>
+2. Since the theme is cosmos, these hints will be passed on to the participants by answering questions based on the theme.<br/>
+3. QR codes are arranged sequentially which must be followed by the teams. <br/>
+4. Participants must use their phones only to scan the QR codes.<br/>
+5. Along with all the riddles and mysteries, the treasure hunt will have a time limit that will be specified to participants before the hunt begins.<br/>
+<br/>
+<b>Team Size: </b> Groups of 4<br/>
+
 
 </p>
                             
