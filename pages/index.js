@@ -10,6 +10,7 @@ import Experience from '../components/Experience/Experience'
 import Projects from '../components/Projects/Projects'
 import Footer from '../components/Footer/Footer'
 import Contact from '../components/Contact/Contact'
+import Sponsors from '../components/Sponsors/Sponsors';
 
 // import { PopupWidget, InlineWidget  } from "react-calendly";
 
@@ -44,6 +45,7 @@ export default function Home() {
       <Landing />
       <About />
       <Projects />
+      <Sponsors/>
       {/* <Experience /> */}
       {/* <Tech /> */}
 
