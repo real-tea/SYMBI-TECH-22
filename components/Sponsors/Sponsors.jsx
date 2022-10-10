@@ -32,20 +32,20 @@ export default function About() {
                                 <div className="proj-box">
 
                                     {"Title Sponsor"}
-                                    <Image priority className="proj-img" src={S1} />
+                                    <Image priority className="proj-img-no-hover" src={S1} />
                                 </div>
                             </Grid>
                             <Grid md={4}>
                                 <div className="proj-box">
                                     {"Partnered By"}
-                                    <Image priority className="proj-img" src={S2} />
+                                    <Image priority className="proj-img-no-hover" src={S2} />
                                 </div>
                             </Grid>
                         </Grid>
                         {/* <p>{"Sponsors"}</p> */}
                         <Grid md={4}>
                             <div className="proj-box">
-                                <Image priority className="proj-img" src={S3} />
+                                <Image priority className="proj-img-no-hover" src={S3} />
                                 {/* {"Laser Cutting"} */}
                             </div>
                         </Grid>
@@ -53,7 +53,7 @@ export default function About() {
                         <Grid md={4}>
                             <div className="proj-box">
                                 <Link href="/register">
-                                    <Image priority className="proj-img" src={S4} />
+                                    <Image priority className="proj-img-no-hover" src={S4} />
                                 </Link>
                                 {/* {"Laser Cutting"} */}
                             </div>
@@ -62,7 +62,7 @@ export default function About() {
                         <Grid md={4}>
                             <div className="proj-box">
                                 <Link href="/register">
-                                    <Image priority className="proj-img" src={S5} />
+                                    <Image priority className="proj-img-no-hover" src={S5} />
                                 </Link>
                                 {/* {"Laser Cutting"} */}
                             </div>
@@ -71,7 +71,7 @@ export default function About() {
                         <Grid md={4}>
                             <div className="proj-box">
                                 <Link href="/register">
-                                    <Image priority className="proj-img" src={S6} />
+                                    <Image priority className="proj-img-no-hover" src={S6} />
                                 </Link>
                                 {/* {"Laser Cutting"} */}
                             </div>
