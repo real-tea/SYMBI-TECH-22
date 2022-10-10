@@ -35,6 +35,7 @@ export default function About() {
                         <Image src={S2} height='180px' width={'300px'} />
                     </div>
                 </div>
+                <p className='also-sponsors'>Also our sponsors</p>
                 <div className='other-sponsors'>
                     <Image src={S3} width='400px' height={'300px'} />
                     <Image src={S4} width='400px' height={'300px'} />

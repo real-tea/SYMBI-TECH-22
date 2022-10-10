@@ -8,9 +8,9 @@
     font-family: 'Cosi Azure Bold', serif;
     font-weight: 700;
     float: right;
-    padding-right: 20px;
     color: #7b009680;
     width: 100%;
+    direction: rtl;
 }
 
 .sponsors-logo {
@@ -40,11 +40,18 @@
     font-size: 2rem;
 }
 
+.also-sponsors {
+    color: white;
+    font-size: 2rem;
+    margin-top: 80px;
+}
+
 .other-sponsors {
     display: grid;
     gap: 10vw;
     grid-template-columns: repeat(3, 240px);
     grid-template-rows: 120px 120px;
+    margin-top: 70px;
 }
 
 #bajaj-logo>img {
