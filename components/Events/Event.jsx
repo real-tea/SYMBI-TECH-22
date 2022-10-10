@@ -136,12 +136,12 @@ const Event = () => {
               </li>
             </Link>
 
-            <Link href="/events/mun">
+            {/* <Link href="/events/mun">
               <li className='event-item'>
                 <div className='event-heading'>Tech MUN</div>
                 <div className='event-desc'>People would be assigned Corporate Companies instead of Countries.</div>
               </li>
-            </Link>
+            </Link> */}
 
             <Link href="/events/floatarig">
               <li className='event-item'>
