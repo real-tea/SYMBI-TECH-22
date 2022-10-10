@@ -49,7 +49,7 @@
 .other-sponsors {
     display: grid;
     gap: 10vw;
-    grid-template-columns: repeat(3, 240px);
+    grid-template-columns: repeat(3, 250px);
     grid-template-rows: 120px 120px;
     margin-top: 70px;
 }

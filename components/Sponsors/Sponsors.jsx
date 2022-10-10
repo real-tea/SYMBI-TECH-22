@@ -37,11 +37,11 @@ export default function About() {
                 </div>
                 <p className='also-sponsors'>Also our sponsors</p>
                 <div className='other-sponsors'>
-                    <Image src={S3} width='400px' height={'300px'} />
-                    <Image src={S4} width='400px' height={'300px'} />
-                    <Image src={S5} width='400px' height={'300px'} />
-                    <Image src={S6} width='400px' height={'300px'} />
-                    <Image src={S7} width='400px' height={'300px'} />
+                    <Image src={S3} />
+                    <Image src={S4} />
+                    <Image src={S5} />
+                    <Image src={S6} />
+                    <Image src={S7} />
                 </div>
             </div>
         </div>
