@@ -17,6 +17,7 @@ import '../components/Modal/Modal.css';
 import '../components/ViewResponse/ViewResponse.css';
 import '../pages/events/eventsub.css';
 import '../components/Sponsors/Sponsors.css';
+import '../components/Venues/venues.css';
 
 import React from 'react'
 import Head from 'next/head'
