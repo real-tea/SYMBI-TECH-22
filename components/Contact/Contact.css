@@ -1,28 +1,12 @@
-.contact {
-    height: 100vh;
-    /* background-color: red; */
-    position: relative;
-    display: flex;
-    z-index: 0;
-}
+.contact {}
 
 .contact-header {
     font-size: 13rem;
     font-family: 'Cosi Azure Bold', serif;
     font-weight: 700;
     color: rgba(123, 0, 150, 0.5);
-    position: absolute;
-    padding-right : 20px;
-    top: 0px;
-    right: 0;
-    z-index: -1;
-
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    width: 100%;
+    float: right;
 }
 
 .contact-container {
@@ -58,11 +42,8 @@ textarea {
     width: 1800px !important;
 }
 
-@media only screen and (max-width: 786px)
-{
-    .contact {
-        height: 150vh;
-    }
+@media only screen and (max-width: 786px) {
+    .contact {}
 
     .contact-header {
         font-size: 5rem;
