@@ -98,10 +98,11 @@ const non_tech_data = [
         value: 'Hunting Through Cosmos',
         label: 'Hunting Through Cosmos'
     },
-    {
-        value: 'Tech MUN',
-        label: 'Tech MUN'
-    },
+    // {
+    //     value: 'Tech MUN',
+    //     label: 'Tech MUN',
+    //     disabled: true
+    // },
     {
         value: 'Finish and Level Up',
         label: 'Finish and Level Up'
