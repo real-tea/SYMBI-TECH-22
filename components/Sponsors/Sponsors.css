@@ -47,6 +47,10 @@
     grid-template-rows: 120px 120px;
 }
 
+#bajaj-logo>img {
+    margin-top: 100px;
+}
+
 @media only screen and (max-width: 996px) {
     .other-sponsors {
         display: flex;

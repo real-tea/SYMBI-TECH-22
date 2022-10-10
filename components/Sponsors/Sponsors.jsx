@@ -26,13 +26,13 @@ export default function About() {
             <h1 className="sponsors-header">Sponsors</h1>
             <div className='sponsors-logo'>
                 <div className='main-sponsors'>
-                    <div className='main-logo-container'>
+                    <div className='main-logo-container' id='bajaj-logo'>
                         <p className='sponsor-footer'>Title Sponsor</p>
-                        <Image src={S1} height='300px' width={'300px'} />
+                        <Image className='bajaj-logo' src={S1} height='180px' width={'300px'} />
                     </div>
                     <div className='main-logo-container'>
                         <p className='sponsor-footer'>Partnered By</p>
-                        <Image src={S2} height='300px' width={'300px'} />
+                        <Image src={S2} height='180px' width={'300px'} />
                     </div>
                 </div>
                 <div className='other-sponsors'>
