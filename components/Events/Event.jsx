@@ -46,13 +46,6 @@ const Event = () => {
               </li>
             </Link>
 
-            <Link href="/events/Weavingweb">
-              <li className='event-item'>
-                <div className='event-heading'>Weaving the Web</div>
-                <div className='event-desc'>Weaving the Web.</div>
-              </li>
-            </Link>
-
             <Link href="/events/Drivebot">
               <li className='event-item'>
                 <div className='event-heading'>Drive the Bot</div>
@@ -161,6 +154,14 @@ const Event = () => {
               <li className='event-item'>
                 <div className='event-heading'>Project Competition</div>
                 <div className='event-desc'>Participants will be exhitibit their proiects in a competition based event</div>
+              </li>
+            </Link>
+
+            <Link href="/events/Oscillopattern">
+              <li className='event-item'>
+                <div className='event-heading'>OSCILLOPATTERN</div>
+                <div className='event-desc'>The objective of the event is to use your knowledge about utilising a DSO (Digital Oscilloscope) and a couple of Frequency generators to design patterns as instructed by the hosts on the display of the DSO.
+                  TEAM SIZE: Group of 2.</div>
               </li>
             </Link>
           </ul>
