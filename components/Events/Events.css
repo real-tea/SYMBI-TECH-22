@@ -48,3 +48,10 @@
         padding-top: 20px;
     }
 }
+
+.venues-link {
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

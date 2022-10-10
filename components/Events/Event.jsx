@@ -15,6 +15,8 @@ const Event = () => {
           Events
         </h1>
         <br />
+        <div className='venues-link'><Link href='/venues'>{"Click here to view venues for all the events"}</Link></div>
+        <br />
         <div className='event-grid'>
           <ul>
             <Link href="/events/codeboard">

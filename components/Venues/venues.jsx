@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 const event_venues = [
     {
@@ -234,24 +235,27 @@ const event_venues = [
 export default function Venues() {
     return (
         <div className='venues'>
-            <table>
-                <tbody>
-                    <tr>
-                        <th>Event</th>
-                        <th>Floor</th>
-                        <th>Wing</th>
-                        <th>Room</th>
-                    </tr>
-                    {event_venues.map((item, i) => (
-                        <tr key={i}>
-                            <td>{item.event}</td>
-                            <td>{item.floor}</td>
-                            <td>{item.wing}</td>
-                            <td>{item.room}</td>
+            <h1 className="contact-header">Venues</h1>
+            <Fade bottom duration={2000}>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Event</th>
+                            <th>Floor</th>
+                            <th>Wing</th>
+                            <th>Room</th>
                         </tr>
-                    ))}
-                </tbody>
-            </table>
+                        {event_venues.map((item, i) => (
+                            <tr key={i}>
+                                <td>{item.event}</td>
+                                <td>{item.floor}</td>
+                                <td>{item.wing}</td>
+                                <td>{item.room}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </Fade>
         </div>
     )
 }
