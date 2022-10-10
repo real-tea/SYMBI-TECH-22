@@ -7,6 +7,7 @@ import S2 from "../../public/sponsor/byte.jpg";
 import S3 from "../../public/sponsor/CL.jpeg";
 import S4 from "../../public/sponsor/ieee.png";
 import S5 from "../../public/sponsor/len.jpg";
+import S6 from "../../public/sponsor/RoyalEnfield.png";
 
 import { Row, Col, Grid, Button, Spacer, Link } from '@nextui-org/react';
 
@@ -25,60 +26,57 @@ export default function About() {
             <Container className="projects-container">
                 <Fade bottom duration={1000}>
                     <Grid.Container gap={2} justify="center">
-                        <Grid md={4}>
-                            
-                                <div className="proj-box">
-                                    
-                                        <Image priority className="proj-img" src={S1} />
-                                    {/* {"DS Visualization"} */}
-                                </div>
-                        </Grid>
-                        <Grid md={4}>
-                                <div className="proj-box">
-                                        <Image priority className="proj-img" src={S2} />
-                                    {/* {"Constructo"} */}
-                                </div>
-                        </Grid>
+                        <Grid direction="row">
+                            <Grid md={4}>
 
-                        <Grid md={4}>
                                 <div className="proj-box">
-                                        <Image priority className="proj-img" src={S3} />
-                                    {/* {"Laser Cutting"} */}
-                                </div>
-                        </Grid>
 
-                        <Grid md={4}>
-                            <Link href="/register" target="__blank">
+                                    {"Title Sponsor"}
+                                    <Image priority className="proj-img" src={S1} />
+                                </div>
+                            </Grid>
+                            <Grid md={4}>
                                 <div className="proj-box">
-                                    <Link href="/register">
-                                        <Image priority className="proj-img" src={S4} />
-                                    </Link>
-                                    {/* {"Laser Cutting"} */}
+                                    {"Partnered By"}
+                                    <Image priority className="proj-img" src={S2} />
                                 </div>
-                            </Link>
+                            </Grid>
                         </Grid>
-
+                        {/* <p>{"Sponsors"}</p> */}
                         <Grid md={4}>
-                            <Link href="/register" target="__blank">
-                                <div className="proj-box">
-                                    <Link href="/register">
-                                        <Image priority className="proj-img" src={S5} />
-                                    </Link>
-                                    {/* {"Laser Cutting"} */}
-                                </div>
-                            </Link>
-                        </Grid>
-
-
-                        {/* <Grid md={4}>
                             <div className="proj-box">
-
-                                <Button className="about-btn" size="xlarge" shadow color="gradient" auto>
-                                    <Link href="/events">and more...</Link>
-                                </Button>
-
+                                <Image priority className="proj-img" src={S3} />
+                                {/* {"Laser Cutting"} */}
                             </div>
-                        </Grid> */}
+                        </Grid>
+
+                        <Grid md={4}>
+                            <div className="proj-box">
+                                <Link href="/register">
+                                    <Image priority className="proj-img" src={S4} />
+                                </Link>
+                                {/* {"Laser Cutting"} */}
+                            </div>
+                        </Grid>
+
+                        <Grid md={4}>
+                            <div className="proj-box">
+                                <Link href="/register">
+                                    <Image priority className="proj-img" src={S5} />
+                                </Link>
+                                {/* {"Laser Cutting"} */}
+                            </div>
+                        </Grid>
+
+                        <Grid md={4}>
+                            <div className="proj-box">
+                                <Link href="/register">
+                                    <Image priority className="proj-img" src={S6} />
+                                </Link>
+                                {/* {"Laser Cutting"} */}
+                            </div>
+                        </Grid>
+
                     </Grid.Container>
                 </Fade>
             </Container>

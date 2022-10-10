@@ -4,7 +4,7 @@ import About_us from "../../components/About_us/About_us";
 import { Button, Spacer, Fade, Link, Grid } from "@nextui-org/react";
 import { Container } from "@mui/material"
 // import './events.css'
-import Poster from "../../public/posters/lasertag.png"
+import Poster from "../../public/posters/galaxy.png";
 import Image from "next/image";
 
 
@@ -26,12 +26,12 @@ export default function Events() {
                 trailingSpeed={3}
             />
             <Head>
-                <title>Laser Tag</title>
+                <title>OSCILLOPATTERN</title>
 
             </Head>
 
             <div className="about" id="about">
-                {/* <h1 className="about-header">Laser Tag</h1> */}
+                <h1 className="about-header">OSCILLOPATTERN</h1>
                 <Container className="abt-cont">
                     <Grid.Container gap={2} justify="center" className="about-content">
                         <Grid xs={12} md={6} className="flex flex-col abt-text-section">
@@ -41,25 +41,27 @@ export default function Events() {
                             <p className="about-subtext">
                                 {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
 
-                                There will be two teams of 4 members each. Each player will be given a laser gun to tag the opponents and a shield. When all the members of a team are tagged by the opponents, they lose
-                                .<br /></p>
-                            <h1 className="about-main-text">Laser Tag</h1>
-                            {/* Everyone regardless of their branch will come together to showcase the perfect two days.  */}
 
-                            {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span>  */}
-                            {/* will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
+                                <br />The objective of the event is to use your knowledge about utilising a DSO (Digital Oscilloscope) and a couple of Frequency generators to design patterns as instructed by the hosts on the display of the DSO.</p>
+                            <h1 className="about-main-text">Event Rules</h1>
+                            ● No ready or semi-finished model or matter would be accepted by teams in the competition.<br />
+                            ● Teams will be judged on creativity, utilization of the frequency generators to design patterns, and application of the device.<br />
+                            ● Teams may choose from any available materials given at their disposal.<br />
+                            Team Size: Group of 2
+                            {/* <span shadow color = "gradient" className="gradient-text">SymbITech</span> 
+                            will help young minds, broaden their vision, and surrender to their instincts for knowledge */}
+                            <p className="about-subtext">
+                                {/* <span shadow color = "gradient" className="gradient-text">Symbiosis Institute of technology </span> */}
 
+                                {/* A Poster making competition to see how creative and communicative our students are through a piece of paper. */}
+
+                                <br /></p>
 
                             <br />
                             <p className="about-subtext">
-
-                                1. No Physical contact<br />
-                                2. No climning arena barricades.<br />
-                                3. No Running.<br />
-                                4. Stay within the arena<br />
-                                <br />
-                                <b>Team Size:</b> Group of 4<br />
-
+                                {/* 1. For online participants i.e digital poster entries deadline will be the day of the offline event.<br /> */}
+                                {/* 2. For offline participants, 2-3 hours time will be allotted to complete their posters in the room itself.<br /> */}
+                                {/* 3. Teams have to debug and reach to clues before time runs out or another team reaches the end point. */}
 
                             </p>
 
