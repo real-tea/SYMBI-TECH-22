@@ -58,9 +58,17 @@
     margin-top: 100px;
 }
 
+
 @media only screen and (max-width: 996px) {
     .other-sponsors {
         display: flex;
         flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 786px) {
+    .sponsors-header {
+        font-size: 6rem;
     }
 }
