@@ -110,6 +110,10 @@ const non_tech_data = [
     {
         value: 'Project Competition',
         label: 'Project Competition'
+    },
+    {
+        value: 'Oscillopattern',
+        label: 'Oscillopattern'
     }
 ]
 
