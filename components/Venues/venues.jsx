@@ -235,7 +235,7 @@ const event_venues = [
 export default function Venues() {
     return (
         <div className='venues'>
-            <h1 className="contact-header">Venues</h1>
+            <Fade duration={800}><h1 className="contact-header">Venues</h1></Fade>
             <Fade bottom duration={2000}>
                 <table>
                     <tbody>
