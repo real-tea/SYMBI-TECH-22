@@ -6,6 +6,12 @@
     position: relative;
 }
 
+.bajaj {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
 .gradient-text {
     /* Fallback: Set a background color. */
     background-color: #CA4246;
