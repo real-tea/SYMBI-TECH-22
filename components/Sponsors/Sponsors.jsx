@@ -28,7 +28,7 @@ export default function About() {
                 <div className='main-sponsors'>
                     <div className='main-logo-container' id='bajaj-logo'>
                         <p className='sponsor-footer'>Title Sponsor</p>
-                        <Image className='bajaj-logo' src={S1} height='180px' width={'300px'} />
+                        <Image className='bajaj-logo' src={S1} height='180px' width={'400px'} />
                     </div>
                     <div className='main-logo-container'>
                         <p className='sponsor-footer'>Partnered By</p>

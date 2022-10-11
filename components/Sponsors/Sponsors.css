@@ -47,10 +47,12 @@
 }
 
 .other-sponsors {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 10vw;
-    grid-template-columns: repeat(3, 250px);
-    grid-template-rows: 120px 120px;
+    max-width: 400px;
+    min-width: none;
+    width: auto;
     margin-top: 70px;
 }
 
