@@ -71,6 +71,12 @@
 
 @media only screen and (max-width: 786px) {
     .sponsors-header {
-        font-size: 6rem;
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .sponsors-header {
+        font-size: 4rem;
     }
 }
