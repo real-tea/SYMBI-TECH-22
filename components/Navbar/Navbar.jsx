@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="nav bar-items">
           <h3 className="navbar-items-text">
             <Link href="/register">
-              Register Now
+              Registrations Closed
             </Link>
           </h3>
         </div>
