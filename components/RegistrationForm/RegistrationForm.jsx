@@ -343,7 +343,7 @@ const RegistrationForm = () => {
     return (
         <>
             <Navbar />
-            <div className='registrations-closed'>Registrations are closed for SymbiTech'22. See you next year!</div>
+            <div className='registrations-closed'>Registrations are closed for SymbiTech. See you next year!</div>
         </>
     )
 }
