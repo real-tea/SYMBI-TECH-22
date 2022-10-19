@@ -10,119 +10,119 @@ import firebase from '../firebase';
 import Select from 'react-select';
 import { useEffect } from 'react';
 
-const current_time = () => {
-    return new Date().toLocaleString();
-}
+// const current_time = () => {
+//     return new Date().toLocaleString();
+// }
 
-const tech_data = [
-    {
-        value: '3D Model Design',
-        label: '3D Model Design'
-    },
-    {
-        value: 'AI Model',
-        label: 'AI Model'
-    },
-    {
-        value: 'Android Artists',
-        label: 'Android Artists'
-    },
-    {
-        value: 'Best out of Goods',
-        label: 'Best out of Goods'
-    },
-    {
-        value: 'Car parts Assembly',
-        label: 'Car parts Assembly'
-    },
-    {
-        value: 'Circuit-o-Mania',
-        label: 'Circuit-o-Mania'
-    },
-    {
-        value: 'Data Science Visualization',
-        label: 'Data Science Visualization'
-    },
-    {
-        value: 'FloataRIG',
-        label: 'FloataRIG'
-    },
-    {
-        value: 'Laser Cutting',
-        label: 'Laser Cutting'
-    },
-    {
-        value: 'Lathe Wars',
-        label: 'Lathe Wars'
-    },
-    {
-        value: 'Model testing: Constructo',
-        label: 'Model testing: Constructo'
-    },
-    {
-        value: 'Model testing: Resilience',
-        label: 'Model testing: Resilience'
-    },
-    {
-        value: 'Codes & Boards',
-        label: 'Codes & Boards'
-    },
-    {
-        value: 'Weaving the Web',
-        label: 'Weaving the Web'
-    },
-    {
-        value: 'Drive the Bot',
-        label: 'Drive the Bot'
-    }
-]
+// const tech_data = [
+//     {
+//         value: '3D Model Design',
+//         label: '3D Model Design'
+//     },
+//     {
+//         value: 'AI Model',
+//         label: 'AI Model'
+//     },
+//     {
+//         value: 'Android Artists',
+//         label: 'Android Artists'
+//     },
+//     {
+//         value: 'Best out of Goods',
+//         label: 'Best out of Goods'
+//     },
+//     {
+//         value: 'Car parts Assembly',
+//         label: 'Car parts Assembly'
+//     },
+//     {
+//         value: 'Circuit-o-Mania',
+//         label: 'Circuit-o-Mania'
+//     },
+//     {
+//         value: 'Data Science Visualization',
+//         label: 'Data Science Visualization'
+//     },
+//     {
+//         value: 'FloataRIG',
+//         label: 'FloataRIG'
+//     },
+//     {
+//         value: 'Laser Cutting',
+//         label: 'Laser Cutting'
+//     },
+//     {
+//         value: 'Lathe Wars',
+//         label: 'Lathe Wars'
+//     },
+//     {
+//         value: 'Model testing: Constructo',
+//         label: 'Model testing: Constructo'
+//     },
+//     {
+//         value: 'Model testing: Resilience',
+//         label: 'Model testing: Resilience'
+//     },
+//     {
+//         value: 'Codes & Boards',
+//         label: 'Codes & Boards'
+//     },
+//     {
+//         value: 'Weaving the Web',
+//         label: 'Weaving the Web'
+//     },
+//     {
+//         value: 'Drive the Bot',
+//         label: 'Drive the Bot'
+//     }
+// ]
 
-const non_tech_data = [
-    {
-        value: 'Ideathon',
-        label: 'Ideathon'
-    },
-    {
-        value: 'Laser Tag',
-        label: 'Laser Tag'
-    },
-    {
-        value: 'Paint Your Galaxy',
-        label: 'Paint Your Galaxy'
-    },
-    {
-        value: 'Think Out Of The Space',
-        label: 'Think Out Of The Space'
-    },
-    {
-        value: 'Hunting Through Cosmos',
-        label: 'Hunting Through Cosmos'
-    },
-    // {
-    //     value: 'Tech MUN',
-    //     label: 'Tech MUN',
-    //     disabled: true
-    // },
-    {
-        value: 'Finish and Level Up',
-        label: 'Finish and Level Up'
-    },
-    {
-        value: 'Project Competition',
-        label: 'Project Competition'
-    },
-    {
-        value: 'Oscillopattern',
-        label: 'Oscillopattern'
-    }
-]
+// const non_tech_data = [
+//     {
+//         value: 'Ideathon',
+//         label: 'Ideathon'
+//     },
+//     {
+//         value: 'Laser Tag',
+//         label: 'Laser Tag'
+//     },
+//     {
+//         value: 'Paint Your Galaxy',
+//         label: 'Paint Your Galaxy'
+//     },
+//     {
+//         value: 'Think Out Of The Space',
+//         label: 'Think Out Of The Space'
+//     },
+//     {
+//         value: 'Hunting Through Cosmos',
+//         label: 'Hunting Through Cosmos'
+//     },
+//     // {
+//     //     value: 'Tech MUN',
+//     //     label: 'Tech MUN',
+//     //     disabled: true
+//     // },
+//     {
+//         value: 'Finish and Level Up',
+//         label: 'Finish and Level Up'
+//     },
+//     {
+//         value: 'Project Competition',
+//         label: 'Project Competition'
+//     },
+//     {
+//         value: 'Oscillopattern',
+//         label: 'Oscillopattern'
+//     }
+// ]
 
 
-const all_events_data = tech_data.concat(non_tech_data);
+// const all_events_data = tech_data.concat(non_tech_data);
 
-const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
-    ssr: false
-});
+// const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
+//     ssr: false
+// });
 
 // const RegistrationForm = () => {
 
